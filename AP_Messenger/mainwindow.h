@@ -18,6 +18,10 @@ public:
 
 private slots:
     void on_btn_log_clicked();
+    void on_bottom_sign_page_clicked();
+    void on_bottom_log_page_clicked();
+    void on_Button_back_log_clicked();
+    void on_Button_back_sign_clicked();
 
 private:
     Ui::MainWindow *ui;
