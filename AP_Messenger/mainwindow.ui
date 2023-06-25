@@ -774,7 +774,7 @@ setAlignment:(Qt::AlignCenter);
       <string>LogIn</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_3">
+    <widget class="QLabel" name="log_error">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -798,7 +798,7 @@ setAlignment:(Qt::AlignCenter);
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLineEdit" name="inp_username">
+    <widget class="QLineEdit" name="inp_username_log">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -821,7 +821,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Ex : AkbarAbdi</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_2">
+    <widget class="QLabel" name="Label_password_log">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -839,7 +839,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Password :</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="inp_username_2">
+    <widget class="QLineEdit" name="inp_password_log">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -864,11 +864,11 @@ setAlignment:(Qt::AlignCenter);
       <string>Ex : AkbarAbdi</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username">
+    <widget class="QLabel" name="Label_username_log">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>70</y>
        <width>211</width>
        <height>22</height>
       </rect>
@@ -901,7 +901,7 @@ setAlignment:(Qt::AlignCenter);
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLineEdit" name="inp_username_4">
+    <widget class="QLineEdit" name="inp_password_sign">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -926,7 +926,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Ex : AkbarAbdi</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="inp_username_3">
+    <widget class="QLineEdit" name="inp_username_sign">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -968,7 +968,7 @@ setAlignment:(Qt::AlignCenter);
       <string>SingIn</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_4">
+    <widget class="QLabel" name="Label_password__sign">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -986,7 +986,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Password :</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_6">
+    <widget class="QLabel" name="Label_username_sign">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1007,31 +1007,7 @@ setAlignment:(Qt::AlignCenter);
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_5">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>410</y>
-       <width>221</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(125, 0, 2);</string>
-     </property>
-     <property name="text">
-      <string>Username or Password is invalid!</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-    <widget class="QLabel" name="Label_username_7">
+    <widget class="QLabel" name="Label_Fname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1049,7 +1025,7 @@ setAlignment:(Qt::AlignCenter);
       <string>FirstName :</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="inp_username_5">
+    <widget class="QLineEdit" name="inp_Fname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1074,7 +1050,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Ex : Akbar</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_8">
+    <widget class="QLabel" name="Label_Lname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1092,7 +1068,7 @@ setAlignment:(Qt::AlignCenter);
       <string>LastName :</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="inp_username_6">
+    <widget class="QLineEdit" name="inp_Lname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1115,6 +1091,70 @@ setAlignment:(Qt::AlignCenter);
      </property>
      <property name="placeholderText">
       <string>Ex : Abdi</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="warning_Lname">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>320</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Last name warning...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fname_warning_lbl">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>First name warning...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="warning_password">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>invalid password!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="warning_username">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>invalid username!</string>
      </property>
     </widget>
    </widget>
