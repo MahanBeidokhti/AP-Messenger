@@ -11,7 +11,7 @@ class API : public QObject
 {
     Q_OBJECT
 public:
-    explicit API(QString host, QObject *parent = nullptr);
+    explicit API(QString Host, QObject *parent = nullptr);
     void sign(QString username, QString password, QString Fname, QString Lname);
     void log(QString username, QString password);
 signals:
