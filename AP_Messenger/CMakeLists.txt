@@ -20,7 +20,8 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         RS.qrc
-
+        api.h
+        api.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
