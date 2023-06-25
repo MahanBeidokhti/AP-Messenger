@@ -868,7 +868,7 @@ setAlignment:(Qt::AlignCenter);
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>70</y>
        <width>211</width>
        <height>22</height>
       </rect>
@@ -901,7 +901,7 @@ setAlignment:(Qt::AlignCenter);
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLineEdit" name="inp_username_4">
+    <widget class="QLineEdit" name="inp_password_sign">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1007,7 +1007,7 @@ setAlignment:(Qt::AlignCenter);
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_7">
+    <widget class="QLabel" name="Label_Fname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1050,7 +1050,7 @@ setAlignment:(Qt::AlignCenter);
       <string>Ex : Akbar</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Label_username_8">
+    <widget class="QLabel" name="Label_Lname">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -1091,46 +1091,6 @@ setAlignment:(Qt::AlignCenter);
      </property>
      <property name="placeholderText">
       <string>Ex : Abdi</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="Label_username_9">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>420</y>
-       <width>221</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(125, 0, 2);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-    <widget class="QLabel" name="confirm_pass_warning_lbl">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>400</y>
-       <width>359</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(170, 0, 0);</string>
-     </property>
-     <property name="text">
-      <string>Confirm Password warning...</string>
      </property>
     </widget>
     <widget class="QLabel" name="warning_Lname">
