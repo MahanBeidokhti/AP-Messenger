@@ -740,7 +740,7 @@ setAlignment:(Qt::AlignCenter);
    <widget class="QGroupBox" name="Login_Box">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>770</x>
       <y>190</y>
       <width>251</width>
       <height>281</height>
@@ -866,8 +866,8 @@ setAlignment:(Qt::AlignCenter);
    <widget class="QGroupBox" name="Signin_Box">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>100</y>
+      <x>100</x>
+      <y>80</y>
       <width>228</width>
       <height>461</height>
      </rect>
@@ -893,6 +893,16 @@ setAlignment:(Qt::AlignCenter);
        </property>
        <property name="placeholderText">
         <string>Ex : AkbarAbdi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="warning_username">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>invalid username!</string>
        </property>
       </widget>
      </item>
@@ -1058,16 +1068,6 @@ setAlignment:(Qt::AlignCenter);
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" colspan="2">
-      <widget class="QLabel" name="warning_username">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(170, 0, 0);</string>
-       </property>
-       <property name="text">
-        <string>invalid username!</string>
        </property>
       </widget>
      </item>
