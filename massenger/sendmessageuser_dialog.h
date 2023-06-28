@@ -20,7 +20,7 @@ private slots:
 
     void on_back_pushButton_clicked();
 
-    void on_pushButton_clicked();
+    void on_back_chat_pushButton_clicked();
 
 private:
     Ui::sendmessageuser_Dialog *ui;

@@ -18,6 +18,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Source/@metawalls.jpg);</string>
+  </property>
   <widget class="QGroupBox" name="username_groupBox">
    <property name="geometry">
     <rect>
@@ -26,6 +29,9 @@
      <width>311</width>
      <height>221</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(8, 8, 8);</string>
    </property>
    <property name="title">
     <string/>
@@ -74,10 +80,13 @@
    <property name="geometry">
     <rect>
      <x>320</x>
-     <y>120</y>
+     <y>150</y>
      <width>447</width>
      <height>341</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(6, 6, 6);</string>
    </property>
    <property name="title">
     <string/>
@@ -119,7 +128,7 @@
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="back_chat_pushButton">
       <property name="font">
        <font>
         <pointsize>12</pointsize>

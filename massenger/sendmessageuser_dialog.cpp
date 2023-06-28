@@ -27,8 +27,7 @@ void sendmessageuser_Dialog::on_back_pushButton_clicked()
    hide();
 }
 
-
-void sendmessageuser_Dialog::on_pushButton_clicked()
+void sendmessageuser_Dialog::on_back_chat_pushButton_clicked()
 {
     ui->chat_groupBox->hide();
     ui->username_groupBox->show();

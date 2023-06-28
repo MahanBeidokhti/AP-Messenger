@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_sendmessageuser_Dialog_t {
     const uint offsetsAndSize[10];
-    char stringdata0[103];
+    char stringdata0[113];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_sendmessageuser_Dialog_t, stringdata0) + ofs), len 
@@ -33,13 +33,13 @@ QT_MOC_LITERAL(0, 22), // "sendmessageuser_Dialog"
 QT_MOC_LITERAL(23, 29), // "on_confirm_pushButton_clicked"
 QT_MOC_LITERAL(53, 0), // ""
 QT_MOC_LITERAL(54, 26), // "on_back_pushButton_clicked"
-QT_MOC_LITERAL(81, 21) // "on_pushButton_clicked"
+QT_MOC_LITERAL(81, 31) // "on_back_chat_pushButton_clicked"
 
     },
     "sendmessageuser_Dialog\0"
     "on_confirm_pushButton_clicked\0\0"
     "on_back_pushButton_clicked\0"
-    "on_pushButton_clicked"
+    "on_back_chat_pushButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -77,7 +77,7 @@ void sendmessageuser_Dialog::qt_static_metacall(QObject *_o, QMetaObject::Call _
         switch (_id) {
         case 0: _t->on_confirm_pushButton_clicked(); break;
         case 1: _t->on_back_pushButton_clicked(); break;
-        case 2: _t->on_pushButton_clicked(); break;
+        case 2: _t->on_back_chat_pushButton_clicked(); break;
         default: ;
         }
     }

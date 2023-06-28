@@ -46,19 +46,20 @@ public:
         if (menu_Dialog->objectName().isEmpty())
             menu_Dialog->setObjectName(QString::fromUtf8("menu_Dialog"));
         menu_Dialog->resize(1132, 631);
+        menu_Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/Source/@metawalls.jpg);"));
         logout_pushButton = new QPushButton(menu_Dialog);
         logout_pushButton->setObjectName(QString::fromUtf8("logout_pushButton"));
-        logout_pushButton->setGeometry(QRect(570, 510, 141, 41));
+        logout_pushButton->setGeometry(QRect(560, 510, 141, 41));
         QFont font;
         font.setPointSize(14);
         logout_pushButton->setFont(font);
         pushButton = new QPushButton(menu_Dialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(420, 508, 131, 41));
+        pushButton->setGeometry(QRect(420, 510, 131, 41));
         pushButton->setFont(font);
         splitter = new QSplitter(menu_Dialog);
         splitter->setObjectName(QString::fromUtf8("splitter"));
-        splitter->setGeometry(QRect(470, 360, 236, 40));
+        splitter->setGeometry(QRect(440, 350, 236, 40));
         splitter->setOrientation(Qt::Horizontal);
         joingroup_pushButton = new QPushButton(splitter);
         joingroup_pushButton->setObjectName(QString::fromUtf8("joingroup_pushButton"));
@@ -70,7 +71,7 @@ public:
         splitter->addWidget(joinchannel_pushButton);
         splitter_2 = new QSplitter(menu_Dialog);
         splitter_2->setObjectName(QString::fromUtf8("splitter_2"));
-        splitter_2->setGeometry(QRect(450, 270, 286, 40));
+        splitter_2->setGeometry(QRect(420, 290, 286, 40));
         splitter_2->setOrientation(Qt::Horizontal);
         creategroup_pushButton = new QPushButton(splitter_2);
         creategroup_pushButton->setObjectName(QString::fromUtf8("creategroup_pushButton"));
@@ -82,7 +83,7 @@ public:
         splitter_2->addWidget(createchannel_pushButton);
         widget = new QWidget(menu_Dialog);
         widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(120, 260, 230, 136));
+        widget->setGeometry(QRect(110, 100, 230, 136));
         gridLayout_2 = new QGridLayout(widget);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -106,7 +107,7 @@ public:
 
         widget1 = new QWidget(menu_Dialog);
         widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(850, 260, 155, 136));
+        widget1->setGeometry(QRect(810, 100, 155, 136));
         gridLayout = new QGridLayout(widget1);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
