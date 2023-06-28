@@ -1,0 +1,16 @@
+release/api.o
+release/chat_dialog.o
+release/main.o
+release/mainwindow.o
+release/menu_dialog.o
+release/sendmessagechannel_dialog.o
+release/sendmessagegroup_dialog.o
+release/sendmessageuser_dialog.o
+release/qrc_RS.o
+release/moc_api.o
+release/moc_chat_dialog.o
+release/moc_mainwindow.o
+release/moc_menu_dialog.o
+release/moc_sendmessagechannel_dialog.o
+release/moc_sendmessagegroup_dialog.o
+release/moc_sendmessageuser_dialog.o

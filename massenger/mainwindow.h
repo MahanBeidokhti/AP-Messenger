@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QPropertyAnimation>
+#include "chat_dialog.h"
+#include "menu_dialog.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -23,8 +25,14 @@ private slots:
     void on_Button_back_log_clicked();
     void on_Button_back_sign_clicked();
 
+    void on_bottom_sign_clicked();
+
+    void on_bottom_log_clicked();
+
 private:
     Ui::MainWindow *ui;
-    QPropertyAnimation *animation;
+
+    menu_Dialog *menu_dialog;
+
 };
 #endif // MAINWINDOW_H

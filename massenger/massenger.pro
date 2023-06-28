@@ -11,15 +11,30 @@ CONFIG += c++17
 
 SOURCES += \
     api.cpp \
+    chat_dialog.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    menu_dialog.cpp \
+    sendmessagechannel_dialog.cpp \
+    sendmessagegroup_dialog.cpp \
+    sendmessageuser_dialog.cpp
 
 HEADERS += \
     api.h \
-    mainwindow.h
+    chat_dialog.h \
+    mainwindow.h \
+    menu_dialog.h \
+    sendmessagechannel_dialog.h \
+    sendmessagegroup_dialog.h \
+    sendmessageuser_dialog.h
 
 FORMS += \
-    mainwindow.ui
+    chat_dialog.ui \
+    mainwindow.ui \
+    menu_dialog.ui \
+    sendmessagechannel_dialog.ui \
+    sendmessagegroup_dialog.ui \
+    sendmessageuser_dialog.ui
 
 RESOURCES += \
     RS.qrc

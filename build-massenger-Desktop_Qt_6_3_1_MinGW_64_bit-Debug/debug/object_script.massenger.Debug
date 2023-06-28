@@ -1,0 +1,16 @@
+debug/api.o
+debug/chat_dialog.o
+debug/main.o
+debug/mainwindow.o
+debug/menu_dialog.o
+debug/sendmessagechannel_dialog.o
+debug/sendmessagegroup_dialog.o
+debug/sendmessageuser_dialog.o
+debug/qrc_RS.o
+debug/moc_api.o
+debug/moc_chat_dialog.o
+debug/moc_mainwindow.o
+debug/moc_menu_dialog.o
+debug/moc_sendmessagechannel_dialog.o
+debug/moc_sendmessagegroup_dialog.o
+debug/moc_sendmessageuser_dialog.o

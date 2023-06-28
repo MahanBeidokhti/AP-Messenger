@@ -37,6 +37,8 @@ void MainWindow::on_bottom_sign_page_clicked()
     QString password = ui->input_password_sign->text();
     QString first_name = ui->input_firstname->text();
     QString last_name = ui->input_lastname->text();
+
+
 }
 
 
@@ -48,6 +50,8 @@ void MainWindow::on_bottom_log_page_clicked()
     //writing informations on login page
     QString username = ui->input_username_log->text();
     QString password = ui->input_password_log->text();
+
+
 }
 
 void MainWindow::on_Button_back_sign_clicked()
@@ -62,6 +66,16 @@ void MainWindow::on_Button_back_log_clicked()
     ui->main_box->show();
 }
 
+void MainWindow::on_bottom_sign_clicked() //if signin succesfully
+{
+    menu_dialog = new menu_Dialog();
+    menu_dialog->show();
+}
 
 
+void MainWindow::on_bottom_log_clicked() //if login succesfully
+{
+    menu_dialog = new menu_Dialog();
+    menu_dialog->show();
+}
 

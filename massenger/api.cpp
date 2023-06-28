@@ -31,7 +31,7 @@ void API::log(const QString &username ,const QString &password)
     connect(rep,&QNetworkReply::finished,this,&API::Gather);
 }
 
-void API::Gather()
+/*void API::Gather()
 {
     //check if sending request was successful, read data.
     if(rep->error()==QNetworkReply::NoError)
@@ -45,4 +45,4 @@ void API::Gather()
         emit Error(rep);
     }
     rep->deleteLater();
-}
+}*/
