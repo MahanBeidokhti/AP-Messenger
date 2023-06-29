@@ -20,7 +20,7 @@
    <widget class="QGroupBox" name="Login_Box">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>460</x>
       <y>190</y>
       <width>251</width>
       <height>281</height>
@@ -147,7 +147,7 @@ background-image: url(:/Source/@metawalls.jpg);</string>
    <widget class="QGroupBox" name="Signin_Box">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>100</y>
       <width>228</width>
       <height>461</height>
@@ -360,8 +360,8 @@ background-image: url(:/Source/@metawalls.jpg);</string>
    <widget class="QGroupBox" name="main_box">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>150</y>
+      <x>420</x>
+      <y>160</y>
       <width>291</width>
       <height>361</height>
      </rect>

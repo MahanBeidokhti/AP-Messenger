@@ -21,7 +21,7 @@ signals:
     //signal for situation wich one of the log or sign commands are corrupted
     void NoError(QByteArray* data);
     //signal of a situation wich there is no error and you want to use the response of the server
-    void Error(QByteArray* data);
+    void Error(QNetworkReply* data);
     //signal of gathering the server results
     void Gather();
 private:
