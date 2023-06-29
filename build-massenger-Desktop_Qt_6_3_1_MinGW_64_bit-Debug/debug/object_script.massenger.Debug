@@ -1,5 +1,9 @@
 debug/api.o
 debug/chat_dialog.o
+debug/createchannel_dialog.o
+debug/creategroup_dialog.o
+debug/joinchannel_dialog.o
+debug/joingroup_dialog.o
 debug/main.o
 debug/mainwindow.o
 debug/menu_dialog.o
@@ -9,6 +13,10 @@ debug/sendmessageuser_dialog.o
 debug/qrc_RS.o
 debug/moc_api.o
 debug/moc_chat_dialog.o
+debug/moc_createchannel_dialog.o
+debug/moc_creategroup_dialog.o
+debug/moc_joinchannel_dialog.o
+debug/moc_joingroup_dialog.o
 debug/moc_mainwindow.o
 debug/moc_menu_dialog.o
 debug/moc_sendmessagechannel_dialog.o

@@ -12,6 +12,10 @@ CONFIG += c++17
 SOURCES += \
     api.cpp \
     chat_dialog.cpp \
+    createchannel_dialog.cpp \
+    creategroup_dialog.cpp \
+    joinchannel_dialog.cpp \
+    joingroup_dialog.cpp \
     main.cpp \
     mainwindow.cpp \
     menu_dialog.cpp \
@@ -22,6 +26,10 @@ SOURCES += \
 HEADERS += \
     api.h \
     chat_dialog.h \
+    createchannel_dialog.h \
+    creategroup_dialog.h \
+    joinchannel_dialog.h \
+    joingroup_dialog.h \
     mainwindow.h \
     menu_dialog.h \
     sendmessagechannel_dialog.h \
@@ -30,6 +38,10 @@ HEADERS += \
 
 FORMS += \
     chat_dialog.ui \
+    createchannel_dialog.ui \
+    creategroup_dialog.ui \
+    joinchannel_dialog.ui \
+    joingroup_dialog.ui \
     mainwindow.ui \
     menu_dialog.ui \
     sendmessagechannel_dialog.ui \

@@ -35,8 +35,36 @@ void menu_Dialog::on_SMS_channel_pushButton_clicked()
 }
 
 
-void menu_Dialog::on_pushButton_clicked()
+void menu_Dialog::on_back_pushButton_clicked()
 {
     hide();
+}
+
+
+void menu_Dialog::on_creategroup_pushButton_clicked()
+{
+    creategroup_dialog = new creategroup_Dialog();
+    creategroup_dialog->show();
+}
+
+
+void menu_Dialog::on_createchannel_pushButton_clicked()
+{
+    createchannel_dialog = new createchannel_Dialog();
+    createchannel_dialog->show();
+}
+
+
+void menu_Dialog::on_joingroup_pushButton_clicked()
+{
+    joingroup_dialog = new joingroup_Dialog();
+    joingroup_dialog->show();
+}
+
+
+void menu_Dialog::on_joinchannel_pushButton_clicked()
+{
+    joinchannel_dialog = new joinchannel_Dialog();
+    joinchannel_dialog->show();
 }
 

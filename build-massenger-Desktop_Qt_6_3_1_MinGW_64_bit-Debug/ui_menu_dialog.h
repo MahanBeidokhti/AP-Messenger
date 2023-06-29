@@ -23,19 +23,19 @@ class Ui_menu_Dialog
 {
 public:
     QPushButton *logout_pushButton;
-    QPushButton *pushButton;
+    QPushButton *back_pushButton;
     QSplitter *splitter;
     QPushButton *joingroup_pushButton;
     QPushButton *joinchannel_pushButton;
     QSplitter *splitter_2;
     QPushButton *creategroup_pushButton;
     QPushButton *createchannel_pushButton;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QGridLayout *gridLayout_2;
     QPushButton *SMS_user_pushButton;
     QPushButton *SMS_group_pushButton;
     QPushButton *SMS_channel_pushButton;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QGridLayout *gridLayout;
     QPushButton *getuserlist_pushButton;
     QPushButton *getgrouplist_pushButton;
@@ -53,10 +53,10 @@ public:
         QFont font;
         font.setPointSize(14);
         logout_pushButton->setFont(font);
-        pushButton = new QPushButton(menu_Dialog);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(420, 510, 131, 41));
-        pushButton->setFont(font);
+        back_pushButton = new QPushButton(menu_Dialog);
+        back_pushButton->setObjectName(QString::fromUtf8("back_pushButton"));
+        back_pushButton->setGeometry(QRect(420, 510, 131, 41));
+        back_pushButton->setFont(font);
         splitter = new QSplitter(menu_Dialog);
         splitter->setObjectName(QString::fromUtf8("splitter"));
         splitter->setGeometry(QRect(440, 350, 236, 40));
@@ -81,49 +81,49 @@ public:
         createchannel_pushButton->setObjectName(QString::fromUtf8("createchannel_pushButton"));
         createchannel_pushButton->setFont(font);
         splitter_2->addWidget(createchannel_pushButton);
-        widget = new QWidget(menu_Dialog);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(110, 100, 230, 136));
-        gridLayout_2 = new QGridLayout(widget);
+        layoutWidget = new QWidget(menu_Dialog);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(110, 100, 230, 136));
+        gridLayout_2 = new QGridLayout(layoutWidget);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
-        SMS_user_pushButton = new QPushButton(widget);
+        SMS_user_pushButton = new QPushButton(layoutWidget);
         SMS_user_pushButton->setObjectName(QString::fromUtf8("SMS_user_pushButton"));
         SMS_user_pushButton->setFont(font);
 
         gridLayout_2->addWidget(SMS_user_pushButton, 0, 0, 1, 1);
 
-        SMS_group_pushButton = new QPushButton(widget);
+        SMS_group_pushButton = new QPushButton(layoutWidget);
         SMS_group_pushButton->setObjectName(QString::fromUtf8("SMS_group_pushButton"));
         SMS_group_pushButton->setFont(font);
 
         gridLayout_2->addWidget(SMS_group_pushButton, 1, 0, 1, 1);
 
-        SMS_channel_pushButton = new QPushButton(widget);
+        SMS_channel_pushButton = new QPushButton(layoutWidget);
         SMS_channel_pushButton->setObjectName(QString::fromUtf8("SMS_channel_pushButton"));
         SMS_channel_pushButton->setFont(font);
 
         gridLayout_2->addWidget(SMS_channel_pushButton, 2, 0, 1, 1);
 
-        widget1 = new QWidget(menu_Dialog);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(810, 100, 155, 136));
-        gridLayout = new QGridLayout(widget1);
+        layoutWidget1 = new QWidget(menu_Dialog);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(810, 100, 155, 136));
+        gridLayout = new QGridLayout(layoutWidget1);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        getuserlist_pushButton = new QPushButton(widget1);
+        getuserlist_pushButton = new QPushButton(layoutWidget1);
         getuserlist_pushButton->setObjectName(QString::fromUtf8("getuserlist_pushButton"));
         getuserlist_pushButton->setFont(font);
 
         gridLayout->addWidget(getuserlist_pushButton, 0, 0, 1, 1);
 
-        getgrouplist_pushButton = new QPushButton(widget1);
+        getgrouplist_pushButton = new QPushButton(layoutWidget1);
         getgrouplist_pushButton->setObjectName(QString::fromUtf8("getgrouplist_pushButton"));
         getgrouplist_pushButton->setFont(font);
 
         gridLayout->addWidget(getgrouplist_pushButton, 1, 0, 1, 1);
 
-        getchannellist_pushButton = new QPushButton(widget1);
+        getchannellist_pushButton = new QPushButton(layoutWidget1);
         getchannellist_pushButton->setObjectName(QString::fromUtf8("getchannellist_pushButton"));
         getchannellist_pushButton->setFont(font);
 
@@ -139,7 +139,7 @@ public:
     {
         menu_Dialog->setWindowTitle(QCoreApplication::translate("menu_Dialog", "Dialog", nullptr));
         logout_pushButton->setText(QCoreApplication::translate("menu_Dialog", "logout", nullptr));
-        pushButton->setText(QCoreApplication::translate("menu_Dialog", "back", nullptr));
+        back_pushButton->setText(QCoreApplication::translate("menu_Dialog", "back", nullptr));
         joingroup_pushButton->setText(QCoreApplication::translate("menu_Dialog", "joingroup", nullptr));
         joinchannel_pushButton->setText(QCoreApplication::translate("menu_Dialog", "joinchannel", nullptr));
         creategroup_pushButton->setText(QCoreApplication::translate("menu_Dialog", "creategroup", nullptr));

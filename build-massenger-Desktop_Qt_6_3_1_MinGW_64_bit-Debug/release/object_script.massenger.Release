@@ -1,5 +1,9 @@
 release/api.o
 release/chat_dialog.o
+release/createchannel_dialog.o
+release/creategroup_dialog.o
+release/joinchannel_dialog.o
+release/joingroup_dialog.o
 release/main.o
 release/mainwindow.o
 release/menu_dialog.o
@@ -9,6 +13,10 @@ release/sendmessageuser_dialog.o
 release/qrc_RS.o
 release/moc_api.o
 release/moc_chat_dialog.o
+release/moc_createchannel_dialog.o
+release/moc_creategroup_dialog.o
+release/moc_joinchannel_dialog.o
+release/moc_joingroup_dialog.o
 release/moc_mainwindow.o
 release/moc_menu_dialog.o
 release/moc_sendmessagechannel_dialog.o
