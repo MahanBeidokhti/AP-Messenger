@@ -1,21 +1,20 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef LOGSIGN_PAGE_H
+#define LOGSIGN_PAGE_H
 
 #include "api.h"
-#include <QMainWindow>
-#include <QPropertyAnimation>
+#include <QDialog>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
-QT_END_NAMESPACE
+namespace Ui {
+class logsign_page;
+}
 
-class MainWindow : public QMainWindow
+class logsign_page : public QDialog
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit logsign_page(QWidget *parent = nullptr);
+    ~logsign_page();
 
 private slots:
     void on_bottom_sign_page_clicked();
@@ -28,8 +27,9 @@ private slots:
     void on_bottom_log_clicked();
 
 private:
-    Ui::MainWindow *ui;
-    QPropertyAnimation *animation;
+    Ui::logsign_page *ui;
     API *ap;
+
 };
-#endif // MAINWINDOW_H
+
+#endif // LOGSIGN_PAGE_H

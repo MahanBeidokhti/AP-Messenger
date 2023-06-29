@@ -1,9 +1,9 @@
-#include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "logsign_page.h"
+#include "ui_logsign_page.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+logsign_page::logsign_page(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::logsign_page)
 {
     ui->setupUi(this);
     // hide
@@ -17,17 +17,17 @@ MainWindow::MainWindow(QWidget *parent)
     ui->main_box->setAlignment(Qt::AlignHCenter);
     ap = new API("http://api.barafardayebehtar.ml:8080");
     //use of reader if login or sign in was successful
-    connect(ap,&API::NoError,this,&::MainWindow::reader);
+    connect(ap,&API::NoError,this,&::logsign_page::reader);
     //use of errorer if login or signin was failed
-    connect(ap,&API::Error,this,&::MainWindow::errorer);
+    connect(ap,&API::Error,this,&::logsign_page::errorer);
 }
 
-MainWindow::~MainWindow()
+logsign_page::~logsign_page()
 {
     delete ui;
 }
 
-void MainWindow::on_bottom_sign_page_clicked()
+void logsign_page::on_bottom_sign_page_clicked()
 {
     //show signin page
     ui->main_box->hide();
@@ -35,26 +35,26 @@ void MainWindow::on_bottom_sign_page_clicked()
 }
 
 
-void MainWindow::on_bottom_log_page_clicked()
+void logsign_page::on_bottom_log_page_clicked()
 {
     //show login page
     ui->main_box->hide();
     ui->Login_Box->show();
 }
 
-void MainWindow::on_Button_back_sign_clicked()
+void logsign_page::on_Button_back_sign_clicked()
 {
     ui->Signin_Box->hide();
     ui->main_box->show();
 }
 
-void MainWindow::on_Button_back_log_clicked()
+void logsign_page::on_Button_back_log_clicked()
 {
     ui->Login_Box->hide();
     ui->main_box->show();
 }
 
-void MainWindow::reader(QByteArray *data)
+void logsign_page::reader(QByteArray *data)
 {
     qDebug("heloooooooooooooooo");
     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
@@ -69,13 +69,13 @@ void MainWindow::reader(QByteArray *data)
     }
 }
 
-void MainWindow::errorer(QNetworkReply *rep)
+void logsign_page::errorer(QNetworkReply *rep)
 {
     ui->log_error->setText(rep->errorString());
     ui->log_error->show();
 }
 
-void MainWindow::on_bottom_log_clicked()
+void logsign_page::on_bottom_log_clicked()
 {
     QString usrnm = ui->input_username_log->text();
     QString pswrd = ui->input_password_log->text();

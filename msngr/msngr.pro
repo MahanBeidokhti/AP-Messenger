@@ -1,6 +1,5 @@
 QT       += core gui
 QT       += network
-
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
@@ -11,14 +10,17 @@ CONFIG += c++17
 
 SOURCES += \
     api.cpp \
+    logsign_page.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     api.h \
+    logsign_page.h \
     mainwindow.h
 
 FORMS += \
+    logsign_page.ui \
     mainwindow.ui
 
 RESOURCES += \

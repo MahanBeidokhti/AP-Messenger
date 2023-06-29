@@ -8,6 +8,7 @@
 #include <QUrl>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QString>
 
 class API : public QObject
 {
