@@ -35,8 +35,6 @@ private slots:
 
     void on_SMS_channel_pushButton_clicked();
 
-    void on_back_pushButton_clicked();
-
     void on_creategroup_pushButton_clicked();
 
     void on_createchannel_pushButton_clicked();

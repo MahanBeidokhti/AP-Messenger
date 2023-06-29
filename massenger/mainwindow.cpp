@@ -63,9 +63,9 @@ void MainWindow::reader(QByteArray *data)
     qDebug()<<code<<message;
     if(code == "200")
     {
-        ui->log_error->setStyleSheet("QLabel {color = green;}");
         if(message=="Logged in Successfully")
         {
+            ui->log_error->setStyleSheet("QLabel {color = green;}");
             menu_dialog = new menu_Dialog();
             this->hide();
             menu_dialog->show();
@@ -74,7 +74,9 @@ void MainWindow::reader(QByteArray *data)
         }
         else if(message == "Signed Up Successfully")
         {
+            ui->sign_error->setStyleSheet("QLabel {color = green;}");
             ui->Signin_Box->hide();
+            ui->main_box->show();
             ui->input_username_sign->clear();
             ui->input_password_sign->clear();
             ui->input_firstname->clear();
@@ -85,6 +87,8 @@ void MainWindow::reader(QByteArray *data)
     {
         ui->log_error->setStyleSheet("QLabel {color = red;}");
     }
+    ui->sign_error->setText(message);
+    ui->sign_error->show();
     ui->log_error->setText(message);
     ui->log_error->show();
 }
@@ -103,6 +107,11 @@ void MainWindow::on_bottom_sign_clicked() //if signin succesfully
     QString pswrd = ui->input_password_log->text();
     QString fname = ui->input_firstname->text();
     QString lname = ui->input_lastname->text();
+    if( usrnm.isEmpty() || pswrd.isEmpty())
+    {
+        ui->sign_error->setText("username or password is empty");
+        ui->sign_error->show();
+    }
     ap->sign(usrnm,pswrd,fname,lname);
     ui->input_username_log->clear();
     ui->input_password_log->clear();

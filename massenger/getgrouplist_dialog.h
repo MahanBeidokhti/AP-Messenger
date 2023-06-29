@@ -2,6 +2,7 @@
 #define GETGROUPLIST_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class getgrouplist_Dialog;

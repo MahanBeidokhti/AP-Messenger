@@ -2,6 +2,7 @@
 #define JOINCHANNEL_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class joinchannel_Dialog;

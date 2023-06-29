@@ -2,6 +2,7 @@
 #define GETUSERLIST_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class getuserlist_Dialog;

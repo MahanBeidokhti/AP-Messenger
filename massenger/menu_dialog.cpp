@@ -34,13 +34,6 @@ void menu_Dialog::on_SMS_channel_pushButton_clicked()
     sendMessageChannel_dialog->show();
 }
 
-
-void menu_Dialog::on_back_pushButton_clicked()
-{
-    hide();
-}
-
-
 void menu_Dialog::on_creategroup_pushButton_clicked()
 {
     creategroup_dialog = new creategroup_Dialog();

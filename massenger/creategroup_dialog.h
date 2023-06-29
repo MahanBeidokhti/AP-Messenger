@@ -2,6 +2,7 @@
 #define CREATEGROUP_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class creategroup_Dialog;
