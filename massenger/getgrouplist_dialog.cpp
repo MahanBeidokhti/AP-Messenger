@@ -12,3 +12,9 @@ getgrouplist_Dialog::~getgrouplist_Dialog()
 {
     delete ui;
 }
+
+void getgrouplist_Dialog::on_pushButton_clicked()
+{
+    hide();
+}
+

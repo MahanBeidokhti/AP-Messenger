@@ -15,6 +15,9 @@ public:
     explicit getgrouplist_Dialog(QWidget *parent = nullptr);
     ~getgrouplist_Dialog();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::getgrouplist_Dialog *ui;
 };
