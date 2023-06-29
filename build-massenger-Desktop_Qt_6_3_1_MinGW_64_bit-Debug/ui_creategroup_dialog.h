@@ -43,7 +43,7 @@ public:
     QPushButton *back_pushButton;
     QHBoxLayout *horizontalLayout_3;
     QLabel *label_2;
-    QLineEdit *lineEdit;
+    QLineEdit *groupname_lineEdit;
     QPushButton *confirm_pushButton_2;
     QPushButton *confirm_pushButton;
 
@@ -152,10 +152,10 @@ public:
 
         horizontalLayout_3->addWidget(label_2);
 
-        lineEdit = new QLineEdit(groupinformation_groupBox);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        groupname_lineEdit = new QLineEdit(groupinformation_groupBox);
+        groupname_lineEdit->setObjectName(QString::fromUtf8("groupname_lineEdit"));
 
-        horizontalLayout_3->addWidget(lineEdit);
+        horizontalLayout_3->addWidget(groupname_lineEdit);
 
 
         gridLayout_2->addLayout(horizontalLayout_3, 2, 0, 1, 2);

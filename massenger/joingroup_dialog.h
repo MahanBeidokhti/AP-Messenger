@@ -15,6 +15,13 @@ public:
     explicit joingroup_Dialog(QWidget *parent = nullptr);
     ~joingroup_Dialog();
 
+private slots:
+    void on_confirm_pushButton_clicked();
+
+    void on_back_pushButton_clicked();
+
+    void on_back_chat_pushButton_clicked();
+
 private:
     Ui::joingroup_Dialog *ui;
 };

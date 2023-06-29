@@ -170,7 +170,7 @@ color: rgb(21, 255, 228);</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="groupname_lineEdit"/>
       </item>
      </layout>
     </item>
