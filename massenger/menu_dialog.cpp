@@ -68,3 +68,23 @@ void menu_Dialog::on_joinchannel_pushButton_clicked()
     joinchannel_dialog->show();
 }
 
+
+void menu_Dialog::on_getuserlist_pushButton_clicked()
+{
+    getuserlist_dialog = new getuserlist_Dialog();
+    getuserlist_dialog->show();
+}
+
+
+void menu_Dialog::on_getgrouplist_pushButton_clicked()
+{
+    getgrouplist_dialog = new getgrouplist_Dialog();
+    getgrouplist_dialog->show();
+}
+
+void menu_Dialog::on_getchannellist_pushButton_clicked()
+{
+    getchannellist_dialog = new getchannellist_Dialog();
+    getchannellist_dialog->show();
+}
+

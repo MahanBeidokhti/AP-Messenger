@@ -9,7 +9,9 @@
 #include "createchannel_dialog.h"
 #include "joingroup_dialog.h"
 #include "joinchannel_dialog.h"
-
+#include "getuserlist_dialog.h"
+#include "getgrouplist_dialog.h"
+#include "getchannellist_dialog.h"
 
 
 
@@ -43,6 +45,12 @@ private slots:
 
     void on_joinchannel_pushButton_clicked();
 
+    void on_getuserlist_pushButton_clicked();
+
+    void on_getgrouplist_pushButton_clicked();
+
+    void on_getchannellist_pushButton_clicked();
+
 private:
     Ui::menu_Dialog *ui;
     sendmessageuser_Dialog *sendMessageUser_dialog;
@@ -51,7 +59,10 @@ private:
     creategroup_Dialog *creategroup_dialog;
     createchannel_Dialog *createchannel_dialog;
     joingroup_Dialog *joingroup_dialog;
-    joinchannel_Dialog * joinchannel_dialog;
+    joinchannel_Dialog *joinchannel_dialog;
+    getuserlist_Dialog *getuserlist_dialog;
+    getgrouplist_Dialog *getgrouplist_dialog;
+    getchannellist_Dialog *getchannellist_dialog;
 };
 
 #endif // MENU_DIALOG_H
