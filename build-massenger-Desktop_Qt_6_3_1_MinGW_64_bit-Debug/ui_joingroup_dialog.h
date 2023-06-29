@@ -46,11 +46,11 @@ public:
     {
         if (joingroup_Dialog->objectName().isEmpty())
             joingroup_Dialog->setObjectName(QString::fromUtf8("joingroup_Dialog"));
-        joingroup_Dialog->resize(1117, 698);
+        joingroup_Dialog->resize(1254, 723);
         joingroup_Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/Source/@metawalls.jpg);"));
         groupinformation_groupBox = new QGroupBox(joingroup_Dialog);
         groupinformation_groupBox->setObjectName(QString::fromUtf8("groupinformation_groupBox"));
-        groupinformation_groupBox->setGeometry(QRect(400, 230, 281, 171));
+        groupinformation_groupBox->setGeometry(QRect(390, 280, 281, 171));
         groupinformation_groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(21, 255, 228);"));
         gridLayout_2 = new QGridLayout(groupinformation_groupBox);
@@ -82,7 +82,7 @@ public:
 
         chat_groupBox = new QGroupBox(joingroup_Dialog);
         chat_groupBox->setObjectName(QString::fromUtf8("chat_groupBox"));
-        chat_groupBox->setGeometry(QRect(300, 120, 501, 421));
+        chat_groupBox->setGeometry(QRect(290, 160, 501, 421));
         chat_groupBox->setStyleSheet(QString::fromUtf8("color: rgb(41, 255, 241);\n"
 "background-color: rgb(4, 4, 4);\n"
 "gridline-color: rgb(255, 71, 25);\n"

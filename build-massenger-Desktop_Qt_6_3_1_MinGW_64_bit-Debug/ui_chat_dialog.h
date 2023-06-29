@@ -23,7 +23,7 @@ public:
     {
         if (chat_Dialog->objectName().isEmpty())
             chat_Dialog->setObjectName(QString::fromUtf8("chat_Dialog"));
-        chat_Dialog->resize(1193, 684);
+        chat_Dialog->resize(1254, 723);
 
         retranslateUi(chat_Dialog);
 

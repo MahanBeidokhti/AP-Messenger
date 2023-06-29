@@ -47,11 +47,11 @@ public:
     {
         if (sendmessagegroup_Dialog->objectName().isEmpty())
             sendmessagegroup_Dialog->setObjectName(QString::fromUtf8("sendmessagegroup_Dialog"));
-        sendmessagegroup_Dialog->resize(1044, 623);
+        sendmessagegroup_Dialog->resize(1254, 723);
         sendmessagegroup_Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/Source/@metawalls.jpg);"));
         chat_groupBox = new QGroupBox(sendmessagegroup_Dialog);
         chat_groupBox->setObjectName(QString::fromUtf8("chat_groupBox"));
-        chat_groupBox->setGeometry(QRect(240, 110, 481, 391));
+        chat_groupBox->setGeometry(QRect(330, 160, 481, 391));
         chat_groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(7, 7, 7);"));
         gridLayout = new QGridLayout(chat_groupBox);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
@@ -100,7 +100,7 @@ public:
 
         groupname_groupBox = new QGroupBox(sendmessagegroup_Dialog);
         groupname_groupBox->setObjectName(QString::fromUtf8("groupname_groupBox"));
-        groupname_groupBox->setGeometry(QRect(310, 200, 311, 191));
+        groupname_groupBox->setGeometry(QRect(400, 250, 311, 191));
         groupname_groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(16, 16, 16);"));
         formLayout = new QFormLayout(groupname_groupBox);
         formLayout->setObjectName(QString::fromUtf8("formLayout"));

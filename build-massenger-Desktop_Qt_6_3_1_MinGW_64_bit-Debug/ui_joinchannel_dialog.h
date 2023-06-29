@@ -46,11 +46,11 @@ public:
     {
         if (joinchannel_Dialog->objectName().isEmpty())
             joinchannel_Dialog->setObjectName(QString::fromUtf8("joinchannel_Dialog"));
-        joinchannel_Dialog->resize(1091, 682);
+        joinchannel_Dialog->resize(1254, 723);
         joinchannel_Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/Source/@metawalls.jpg);"));
         chat_groupBox = new QGroupBox(joinchannel_Dialog);
         chat_groupBox->setObjectName(QString::fromUtf8("chat_groupBox"));
-        chat_groupBox->setGeometry(QRect(260, 80, 521, 421));
+        chat_groupBox->setGeometry(QRect(270, 150, 521, 421));
         chat_groupBox->setStyleSheet(QString::fromUtf8("color: rgb(41, 255, 241);\n"
 "background-color: rgb(4, 4, 4);\n"
 "gridline-color: rgb(255, 71, 25);\n"
@@ -107,7 +107,7 @@ public:
 
         channelinformation_groupBox = new QGroupBox(joinchannel_Dialog);
         channelinformation_groupBox->setObjectName(QString::fromUtf8("channelinformation_groupBox"));
-        channelinformation_groupBox->setGeometry(QRect(390, 200, 251, 161));
+        channelinformation_groupBox->setGeometry(QRect(390, 270, 251, 161));
         channelinformation_groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(21, 255, 228);"));
         gridLayout_2 = new QGridLayout(channelinformation_groupBox);

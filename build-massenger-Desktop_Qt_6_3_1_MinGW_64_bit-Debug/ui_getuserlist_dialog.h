@@ -31,11 +31,11 @@ public:
     {
         if (getuserlist_Dialog->objectName().isEmpty())
             getuserlist_Dialog->setObjectName(QString::fromUtf8("getuserlist_Dialog"));
-        getuserlist_Dialog->resize(1122, 736);
+        getuserlist_Dialog->resize(1254, 723);
         getuserlist_Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/Source/@metawalls.jpg);"));
         user_groupBox = new QGroupBox(getuserlist_Dialog);
         user_groupBox->setObjectName(QString::fromUtf8("user_groupBox"));
-        user_groupBox->setGeometry(QRect(220, 80, 631, 461));
+        user_groupBox->setGeometry(QRect(290, 120, 631, 461));
         QFont font;
         font.setPointSize(14);
         user_groupBox->setFont(font);

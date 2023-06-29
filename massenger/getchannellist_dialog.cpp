@@ -12,3 +12,9 @@ getchannellist_Dialog::~getchannellist_Dialog()
 {
     delete ui;
 }
+
+void getchannellist_Dialog::on_pushButton_clicked()
+{
+    hide();
+}
+

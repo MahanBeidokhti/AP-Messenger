@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1140</width>
-    <height>937</height>
+    <width>1254</width>
+    <height>723</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
   <widget class="QGroupBox" name="channelname_groupBox">
    <property name="geometry">
     <rect>
-     <x>430</x>
-     <y>190</y>
+     <x>410</x>
+     <y>240</y>
      <width>311</width>
      <height>191</height>
     </rect>
@@ -74,8 +74,8 @@
   <widget class="QGroupBox" name="chat_groupBox">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>110</y>
+     <x>290</x>
+     <y>160</y>
      <width>551</width>
      <height>411</height>
     </rect>

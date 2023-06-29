@@ -15,6 +15,9 @@ public:
     explicit getchannellist_Dialog(QWidget *parent = nullptr);
     ~getchannellist_Dialog();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::getchannellist_Dialog *ui;
 };

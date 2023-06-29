@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1177</width>
-    <height>760</height>
+    <width>1254</width>
+    <height>723</height>
    </rect>
   </property>
   <property name="font">
@@ -25,7 +25,7 @@
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>190</y>
+     <y>230</y>
      <width>311</width>
      <height>221</height>
     </rect>
@@ -80,7 +80,7 @@
    <property name="geometry">
     <rect>
      <x>320</x>
-     <y>150</y>
+     <y>190</y>
      <width>447</width>
      <height>341</height>
     </rect>
@@ -141,6 +141,11 @@
     </item>
     <item row="2" column="2">
      <widget class="QPushButton" name="send_pushButton">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>send</string>
       </property>
