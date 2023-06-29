@@ -10,18 +10,64 @@ CONFIG += c++17
 
 SOURCES += \
     api.cpp \
+<<<<<<< HEAD:msngr/msngr.pro
     logsign_page.cpp \
+=======
+    chat_dialog.cpp \
+    createchannel_dialog.cpp \
+    creategroup_dialog.cpp \
+    getchannellist_dialog.cpp \
+    getgrouplist_dialog.cpp \
+    getuserlist_dialog.cpp \
+    joinchannel_dialog.cpp \
+    joingroup_dialog.cpp \
+>>>>>>> origin/H-start:massenger/massenger.pro
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    menu_dialog.cpp \
+    sendmessagechannel_dialog.cpp \
+    sendmessagegroup_dialog.cpp \
+    sendmessageuser_dialog.cpp
 
 HEADERS += \
     api.h \
+<<<<<<< HEAD:msngr/msngr.pro
     logsign_page.h \
     mainwindow.h
 
 FORMS += \
     logsign_page.ui \
     mainwindow.ui
+=======
+    chat_dialog.h \
+    createchannel_dialog.h \
+    creategroup_dialog.h \
+    getchannellist_dialog.h \
+    getgrouplist_dialog.h \
+    getuserlist_dialog.h \
+    joinchannel_dialog.h \
+    joingroup_dialog.h \
+    mainwindow.h \
+    menu_dialog.h \
+    sendmessagechannel_dialog.h \
+    sendmessagegroup_dialog.h \
+    sendmessageuser_dialog.h
+
+FORMS += \
+    chat_dialog.ui \
+    createchannel_dialog.ui \
+    creategroup_dialog.ui \
+    getchannellist_dialog.ui \
+    getgrouplist_dialog.ui \
+    getuserlist_dialog.ui \
+    joinchannel_dialog.ui \
+    joingroup_dialog.ui \
+    mainwindow.ui \
+    menu_dialog.ui \
+    sendmessagechannel_dialog.ui \
+    sendmessagegroup_dialog.ui \
+    sendmessageuser_dialog.ui
+>>>>>>> origin/H-start:massenger/massenger.pro
 
 RESOURCES += \
     RS.qrc
