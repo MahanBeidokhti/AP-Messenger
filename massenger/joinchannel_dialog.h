@@ -15,6 +15,13 @@ public:
     explicit joinchannel_Dialog(QWidget *parent = nullptr);
     ~joinchannel_Dialog();
 
+private slots:
+    void on_confirm_pushButton_clicked();
+
+    void on_back_pushButton_clicked();
+
+    void on_back_chat_pushButton_clicked();
+
 private:
     Ui::joinchannel_Dialog *ui;
 };
