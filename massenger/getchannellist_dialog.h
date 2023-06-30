@@ -3,6 +3,9 @@
 
 #include <QDialog>
 #include "api.h"
+#include <QFile>
+#include <QTextStream>
+
 
 namespace Ui {
 class getchannellist_Dialog;

@@ -7,7 +7,7 @@ sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->chat_groupBox->hide();
-
+    ap = new API(("http://api.barafardayebehtar.ml:8080"));
 }
 
 sendmessageuser_Dialog::~sendmessageuser_Dialog()
@@ -18,7 +18,6 @@ sendmessageuser_Dialog::~sendmessageuser_Dialog()
 void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
 {
    QString username = ui->username_lineEdit->text();
-   ap = new API(("http://api.barafardayebehtar.ml:8080"));
    //file : opening token file and filling string:token with file
    QString tok;
    ap->chatload(username,tok,"user");
