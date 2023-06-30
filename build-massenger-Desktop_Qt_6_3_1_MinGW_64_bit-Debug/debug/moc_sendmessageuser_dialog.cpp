@@ -23,8 +23,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_sendmessageuser_Dialog_t {
-    const uint offsetsAndSize[10];
-    char stringdata0[113];
+    const uint offsetsAndSize[22];
+    char stringdata0[178];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_sendmessageuser_Dialog_t, stringdata0) + ofs), len 
@@ -34,13 +34,21 @@ QT_MOC_LITERAL(0, 22), // "sendmessageuser_Dialog"
 QT_MOC_LITERAL(23, 29), // "on_confirm_pushButton_clicked"
 QT_MOC_LITERAL(53, 0), // ""
 QT_MOC_LITERAL(54, 26), // "on_back_pushButton_clicked"
-QT_MOC_LITERAL(81, 31) // "on_back_chat_pushButton_clicked"
+QT_MOC_LITERAL(81, 31), // "on_back_chat_pushButton_clicked"
+QT_MOC_LITERAL(113, 14), // "UserChatLoader"
+QT_MOC_LITERAL(128, 11), // "QByteArray*"
+QT_MOC_LITERAL(140, 4), // "data"
+QT_MOC_LITERAL(145, 13), // "UserChatError"
+QT_MOC_LITERAL(159, 14), // "QNetworkReply*"
+QT_MOC_LITERAL(174, 3) // "rep"
 
     },
     "sendmessageuser_Dialog\0"
     "on_confirm_pushButton_clicked\0\0"
     "on_back_pushButton_clicked\0"
-    "on_back_chat_pushButton_clicked"
+    "on_back_chat_pushButton_clicked\0"
+    "UserChatLoader\0QByteArray*\0data\0"
+    "UserChatError\0QNetworkReply*\0rep"
 };
 #undef QT_MOC_LITERAL
 
@@ -50,7 +58,7 @@ static const uint qt_meta_data_sendmessageuser_Dialog[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -58,14 +66,18 @@ static const uint qt_meta_data_sendmessageuser_Dialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   32,    2, 0x08,    1 /* Private */,
-       3,    0,   33,    2, 0x08,    2 /* Private */,
-       4,    0,   34,    2, 0x08,    3 /* Private */,
+       1,    0,   44,    2, 0x08,    1 /* Private */,
+       3,    0,   45,    2, 0x08,    2 /* Private */,
+       4,    0,   46,    2, 0x08,    3 /* Private */,
+       5,    1,   47,    2, 0x08,    4 /* Private */,
+       8,    1,   50,    2, 0x08,    6 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 6,    7,
+    QMetaType::Void, 0x80000000 | 9,   10,
 
        0        // eod
 };
@@ -79,10 +91,22 @@ void sendmessageuser_Dialog::qt_static_metacall(QObject *_o, QMetaObject::Call _
         case 0: _t->on_confirm_pushButton_clicked(); break;
         case 1: _t->on_back_pushButton_clicked(); break;
         case 2: _t->on_back_chat_pushButton_clicked(); break;
+        case 3: _t->UserChatLoader((*reinterpret_cast< std::add_pointer_t<QByteArray*>>(_a[1]))); break;
+        case 4: _t->UserChatError((*reinterpret_cast< std::add_pointer_t<QNetworkReply*>>(_a[1]))); break;
         default: ;
         }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+        case 4:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QNetworkReply* >(); break;
+            }
+            break;
+        }
     }
-    (void)_a;
 }
 
 const QMetaObject sendmessageuser_Dialog::staticMetaObject = { {
@@ -93,7 +117,7 @@ const QMetaObject sendmessageuser_Dialog::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_sendmessageuser_Dialog_t
 , QtPrivate::TypeAndForceComplete<sendmessageuser_Dialog, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QByteArray *, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QNetworkReply *, std::false_type>
 
 
 >,
@@ -120,13 +144,13 @@ int sendmessageuser_Dialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
-            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
     }
     return _id;
 }

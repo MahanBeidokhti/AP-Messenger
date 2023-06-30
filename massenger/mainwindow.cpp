@@ -125,6 +125,16 @@ void MainWindow::on_bottom_log_clicked() //if login succesfully
 {
     QString usrnm = ui->input_username_log->text();
     QString pswrd = ui->input_password_log->text();
+    QFile userpassFile("userpath.txt");
+       if (!userpassFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+       }
+       else{
+           QTextStream stream(&userpassFile);
+           stream << usrnm << "\n";
+           stream << pswrd << "\n";
+           userpassFile.close();
+       }
     ap->log(usrnm,pswrd);
     ui->input_username_log->clear();
     ui->input_password_log->clear();

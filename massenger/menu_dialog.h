@@ -49,6 +49,8 @@ private slots:
 
     void on_getchannellist_pushButton_clicked();
 
+    void on_logout_pushButton_clicked();
+
 private:
     Ui::menu_Dialog *ui;
     sendmessageuser_Dialog *sendMessageUser_dialog;

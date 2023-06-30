@@ -80,3 +80,35 @@ void menu_Dialog::on_getchannellist_pushButton_clicked()
     getchannellist_dialog->show();
 }
 
+
+void menu_Dialog::on_logout_pushButton_clicked()
+{
+    QFile userpassFile("userpath.txt");
+       if (!userpassFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+       }
+       else{
+           QString line_urenm;
+           QString line_pass;
+           QTextStream stream(&userpassFile);
+           stream >>line_urenm;
+           stream >>line_pass;
+
+           QString command = "http://api.barafardayebehtar.ml:8080/logout?username="+line_urenm+"&password="+line_pass;
+           QNetworkAccessManager* manager;
+           manager = new QNetworkAccessManager();
+           QNetworkReply* rep;
+           rep = manager->get(QNetworkRequest(QUrl(command)));
+           if(rep->error()==QNetworkReply::NoError)
+           {
+               qDebug()<<"log out successfully";
+               close();
+           }
+           else
+           {
+               qDebug()<<"Error";
+           }
+           userpassFile.close();
+       }
+}
+
