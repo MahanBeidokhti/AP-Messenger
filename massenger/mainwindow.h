@@ -5,6 +5,8 @@
 #include "api.h"
 #include "chat_dialog.h"
 #include "menu_dialog.h"
+#include <QEventLoop>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

@@ -70,8 +70,15 @@ void MainWindow::reader(QByteArray *data)
             this->hide();
             menu_dialog->show();
             //file
-            //saving token in file
+            QFile tokenFile("token.txt");
             QString token = JV.value("token").toString();
+            if (!tokenFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+               qDebug()<<"file cant be open";
+            }
+            else{
+                QTextStream stream(&tokenFile);
+                stream<<token;
+            }
         }
         else if(message == "Signed Up Successfully")
         {
@@ -125,6 +132,16 @@ void MainWindow::on_bottom_log_clicked() //if login succesfully
 {
     QString usrnm = ui->input_username_log->text();
     QString pswrd = ui->input_password_log->text();
+    QFile userpassFile("userpath.txt");
+       if (!userpassFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+       }
+       else{
+           QTextStream stream(&userpassFile);
+           stream << usrnm << "\n";
+           stream << pswrd << "\n";
+           userpassFile.close();
+       }
     ap->log(usrnm,pswrd);
     ui->input_username_log->clear();
     ui->input_password_log->clear();

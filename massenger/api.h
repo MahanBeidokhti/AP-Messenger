@@ -21,9 +21,11 @@ public:
     //sending Log in command to server and gathering the results
     void log(const QString &username ,const QString &password);
     //getting user chats
+
     void chatload(const QString &username, const QString &token, const QString &type);
     //sending user message
     void sendMessage(const QString &body, const QString &username,const QString &token, const QString &type);
+
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
     void NoError(QByteArray* data);

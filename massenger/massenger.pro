@@ -11,7 +11,6 @@ CONFIG += c++17
 
 SOURCES += \
     api.cpp \
-    chat_dialog.cpp \
     createchannel_dialog.cpp \
     creategroup_dialog.cpp \
     getchannellist_dialog.cpp \
@@ -29,7 +28,6 @@ SOURCES += \
 
 HEADERS += \
     api.h \
-    chat_dialog.h \
     createchannel_dialog.h \
     creategroup_dialog.h \
     getchannellist_dialog.h \
@@ -45,7 +43,6 @@ HEADERS += \
     sendmessageuser_dialog.h
 
 FORMS += \
-    chat_dialog.ui \
     createchannel_dialog.ui \
     creategroup_dialog.ui \
     getchannellist_dialog.ui \
