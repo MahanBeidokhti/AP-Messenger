@@ -17,7 +17,6 @@ void menu_Dialog::on_SMS_user_pushButton_clicked()
 {
     sendMessageUser_dialog = new sendmessageuser_Dialog();
     sendMessageUser_dialog->show();
-    connect(sendMessageUser_dialog, SIGNAL(clicked()),this , SLOT(connected()));
 }
 
 
@@ -79,5 +78,47 @@ void menu_Dialog::on_getchannellist_pushButton_clicked()
 {
     getchannellist_dialog = new getchannellist_Dialog();
     getchannellist_dialog->show();
+}
+
+
+void menu_Dialog::on_logout_pushButton_clicked()
+{
+       QFile userpassFile("userpath.txt");
+       QEventLoop eventLoop;
+       if (!userpassFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+       }
+       else{
+           QString line_urenm;
+           QString line_pass;
+           QTextStream stream(&userpassFile);
+           stream >>line_urenm;
+           stream >>line_pass;
+
+
+           QString command = "http://api.barafardayebehtar.ml:8080/logout?username="+line_urenm+"&password="+line_pass;
+           QNetworkAccessManager* manager;
+           manager = new QNetworkAccessManager();
+           QNetworkReply* rep;
+           rep = manager->get(QNetworkRequest(QUrl(command)));
+           connect(rep, &QNetworkReply::finished, &eventLoop, &QEventLoop::quit);
+           eventLoop.exec();
+           if(rep->error()==QNetworkReply::NoError)
+           {
+               qDebug()<<"log out successfully";
+               close();
+           }
+           else
+           {
+               qDebug()<<"Error";
+           }
+           userpassFile.resize(0); //empty userfile
+
+           QFile tokenFile("token.txt"); //empty token
+           tokenFile.resize(0);
+
+           userpassFile.close();
+
+       }
 }
 

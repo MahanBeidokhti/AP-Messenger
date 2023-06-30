@@ -60,7 +60,7 @@ void MainWindow::reader(QByteArray *data)
     QJsonObject JV = JAnswer.object();
     QString code =  JV.value("code").toString();
     QString message =JV.value("message").toString();
-    qDebug()<<code<<message;
+    qDebug()<<code;
     if(code == "200")
     {
         if(message=="Logged in Successfully")
@@ -69,8 +69,16 @@ void MainWindow::reader(QByteArray *data)
             menu_dialog = new menu_Dialog();
             this->hide();
             menu_dialog->show();
-            //saving token in file
-            QString tok= JV.value("token").toString();
+            //file
+            QFile tokenFile("token.txt");
+            QString token = JV.value("token").toString();
+            if (!tokenFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+               qDebug()<<"file cant be open";
+            }
+            else{
+                QTextStream stream(&tokenFile);
+                stream<<token;
+            }
         }
         else if(message == "Signed Up Successfully")
         {
@@ -103,8 +111,8 @@ void MainWindow::errorer(QNetworkReply *rep)
 
 void MainWindow::on_bottom_sign_clicked() //if signin succesfully
 {
-    QString usrnm = ui->input_username_log->text();
-    QString pswrd = ui->input_password_log->text();
+    QString usrnm = ui->input_username_sign->text();
+    QString pswrd = ui->input_password_sign->text();
     QString fname = ui->input_firstname->text();
     QString lname = ui->input_lastname->text();
     if( usrnm.isEmpty() || pswrd.isEmpty())
@@ -124,6 +132,16 @@ void MainWindow::on_bottom_log_clicked() //if login succesfully
 {
     QString usrnm = ui->input_username_log->text();
     QString pswrd = ui->input_password_log->text();
+    QFile userpassFile("userpath.txt");
+       if (!userpassFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+       }
+       else{
+           QTextStream stream(&userpassFile);
+           stream << usrnm << "\n";
+           stream << pswrd << "\n";
+           userpassFile.close();
+       }
     ap->log(usrnm,pswrd);
     ui->input_username_log->clear();
     ui->input_password_log->clear();

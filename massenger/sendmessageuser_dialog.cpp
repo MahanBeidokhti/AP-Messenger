@@ -7,6 +7,7 @@ sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->chat_groupBox->hide();
+    ap = new API(("http://api.barafardayebehtar.ml:8080"));
 
 }
 
@@ -17,6 +18,12 @@ sendmessageuser_Dialog::~sendmessageuser_Dialog()
 
 void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
 {
+   QString username = ui->username_lineEdit->text();
+   //file
+   QString tok;
+   ap->chatload(username,tok,"user");
+   connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
+   connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
    ui->chat_groupBox->show();
    ui->username_groupBox->hide();
 }
@@ -33,3 +40,15 @@ void sendmessageuser_Dialog::on_back_chat_pushButton_clicked()
     ui->username_groupBox->show();
 }
 
+void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
+{
+    QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
+    QJsonObject JV = JAnswer.object();
+    QString code =  JV.value("code").toString();
+    //file...
+}
+
+void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
+{
+
+}

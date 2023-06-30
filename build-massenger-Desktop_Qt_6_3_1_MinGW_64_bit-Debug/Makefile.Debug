@@ -324,7 +324,7 @@ debug/moc_api.cpp: ../massenger/api.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\api.h -o debug\moc_api.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\api.h -o debug\moc_api.cpp
 
 debug/moc_chat_dialog.cpp: ../massenger/chat_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -462,7 +462,7 @@ debug/moc_chat_dialog.cpp: ../massenger/chat_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\chat_dialog.h -o debug\moc_chat_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\chat_dialog.h -o debug\moc_chat_dialog.cpp
 
 debug/moc_createchannel_dialog.cpp: ../massenger/createchannel_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -598,9 +598,55 @@ debug/moc_createchannel_dialog.cpp: ../massenger/createchannel_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\createchannel_dialog.h -o debug\moc_createchannel_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\createchannel_dialog.h -o debug\moc_createchannel_dialog.cpp
 
 debug/moc_creategroup_dialog.cpp: ../massenger/creategroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -736,9 +782,55 @@ debug/moc_creategroup_dialog.cpp: ../massenger/creategroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\creategroup_dialog.h -o debug\moc_creategroup_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\creategroup_dialog.h -o debug\moc_creategroup_dialog.cpp
 
 debug/moc_getchannellist_dialog.cpp: ../massenger/getchannellist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -874,9 +966,55 @@ debug/moc_getchannellist_dialog.cpp: ../massenger/getchannellist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getchannellist_dialog.h -o debug\moc_getchannellist_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getchannellist_dialog.h -o debug\moc_getchannellist_dialog.cpp
 
 debug/moc_getgrouplist_dialog.cpp: ../massenger/getgrouplist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1012,9 +1150,55 @@ debug/moc_getgrouplist_dialog.cpp: ../massenger/getgrouplist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getgrouplist_dialog.h -o debug\moc_getgrouplist_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getgrouplist_dialog.h -o debug\moc_getgrouplist_dialog.cpp
 
 debug/moc_getuserlist_dialog.cpp: ../massenger/getuserlist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1150,9 +1334,55 @@ debug/moc_getuserlist_dialog.cpp: ../massenger/getuserlist_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getuserlist_dialog.h -o debug\moc_getuserlist_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\getuserlist_dialog.h -o debug\moc_getuserlist_dialog.cpp
 
 debug/moc_joinchannel_dialog.cpp: ../massenger/joinchannel_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1288,9 +1518,55 @@ debug/moc_joinchannel_dialog.cpp: ../massenger/joinchannel_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\joinchannel_dialog.h -o debug\moc_joinchannel_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\joinchannel_dialog.h -o debug\moc_joinchannel_dialog.cpp
 
 debug/moc_joingroup_dialog.cpp: ../massenger/joingroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1426,9 +1702,55 @@ debug/moc_joingroup_dialog.cpp: ../massenger/joingroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\joingroup_dialog.h -o debug\moc_joingroup_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\joingroup_dialog.h -o debug\moc_joingroup_dialog.cpp
 
 debug/moc_mainwindow.cpp: ../massenger/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
@@ -1612,6 +1934,10 @@ debug/moc_mainwindow.cpp: ../massenger/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qdialog.h \
 		../massenger/menu_dialog.h \
 		../massenger/sendmessageuser_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		../massenger/sendmessagegroup_dialog.h \
 		../massenger/sendmessagechannel_dialog.h \
 		../massenger/creategroup_dialog.h \
@@ -1623,7 +1949,7 @@ debug/moc_mainwindow.cpp: ../massenger/mainwindow.h \
 		../massenger/getchannellist_dialog.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\mainwindow.h -o debug\moc_mainwindow.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\mainwindow.h -o debug\moc_mainwindow.cpp
 
 debug/moc_menu_dialog.cpp: ../massenger/menu_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1760,6 +2086,52 @@ debug/moc_menu_dialog.cpp: ../massenger/menu_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		../massenger/sendmessageuser_dialog.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		../massenger/sendmessagegroup_dialog.h \
 		../massenger/sendmessagechannel_dialog.h \
 		../massenger/creategroup_dialog.h \
@@ -1771,7 +2143,7 @@ debug/moc_menu_dialog.cpp: ../massenger/menu_dialog.h \
 		../massenger/getchannellist_dialog.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\menu_dialog.h -o debug\moc_menu_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\menu_dialog.h -o debug\moc_menu_dialog.cpp
 
 debug/moc_sendmessagechannel_dialog.cpp: ../massenger/sendmessagechannel_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1907,9 +2279,55 @@ debug/moc_sendmessagechannel_dialog.cpp: ../massenger/sendmessagechannel_dialog.
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessagechannel_dialog.h -o debug\moc_sendmessagechannel_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessagechannel_dialog.h -o debug\moc_sendmessagechannel_dialog.cpp
 
 debug/moc_sendmessagegroup_dialog.cpp: ../massenger/sendmessagegroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -2045,9 +2463,55 @@ debug/moc_sendmessagegroup_dialog.cpp: ../massenger/sendmessagegroup_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessagegroup_dialog.h -o debug\moc_sendmessagegroup_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessagegroup_dialog.h -o debug\moc_sendmessagegroup_dialog.cpp
 
 debug/moc_sendmessageuser_dialog.cpp: ../massenger/sendmessageuser_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -2183,9 +2647,55 @@ debug/moc_sendmessageuser_dialog.cpp: ../massenger/sendmessageuser_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_GroupName_GroupNumber/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessageuser_dialog.h -o debug\moc_sendmessageuser_dialog.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/build-massenger-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/98914/Documents/term 2/BIG final project/Messenger_Hahan_3/massenger" -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\massenger\sendmessageuser_dialog.h -o debug\moc_sendmessageuser_dialog.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -2519,7 +3029,29 @@ debug/chat_dialog.o: ../massenger/chat_dialog.cpp ../massenger/chat_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_chat_dialog.h
+		ui_chat_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\chat_dialog.o ..\massenger\chat_dialog.cpp
 
 debug/createchannel_dialog.o: ../massenger/createchannel_dialog.cpp ../massenger/createchannel_dialog.h \
@@ -2656,7 +3188,111 @@ debug/createchannel_dialog.o: ../massenger/createchannel_dialog.cpp ../massenger
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_createchannel_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_createchannel_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\createchannel_dialog.o ..\massenger\createchannel_dialog.cpp
 
 debug/creategroup_dialog.o: ../massenger/creategroup_dialog.cpp ../massenger/creategroup_dialog.h \
@@ -2793,7 +3429,111 @@ debug/creategroup_dialog.o: ../massenger/creategroup_dialog.cpp ../massenger/cre
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_creategroup_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_creategroup_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\creategroup_dialog.o ..\massenger\creategroup_dialog.cpp
 
 debug/getchannellist_dialog.o: ../massenger/getchannellist_dialog.cpp ../massenger/getchannellist_dialog.h \
@@ -2930,7 +3670,102 @@ debug/getchannellist_dialog.o: ../massenger/getchannellist_dialog.cpp ../masseng
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_getchannellist_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_getchannellist_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\getchannellist_dialog.o ..\massenger\getchannellist_dialog.cpp
 
 debug/getgrouplist_dialog.o: ../massenger/getgrouplist_dialog.cpp ../massenger/getgrouplist_dialog.h \
@@ -3067,7 +3902,102 @@ debug/getgrouplist_dialog.o: ../massenger/getgrouplist_dialog.cpp ../massenger/g
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_getgrouplist_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_getgrouplist_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\getgrouplist_dialog.o ..\massenger\getgrouplist_dialog.cpp
 
 debug/getuserlist_dialog.o: ../massenger/getuserlist_dialog.cpp ../massenger/getuserlist_dialog.h \
@@ -3204,7 +4134,102 @@ debug/getuserlist_dialog.o: ../massenger/getuserlist_dialog.cpp ../massenger/get
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_getuserlist_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_getuserlist_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\getuserlist_dialog.o ..\massenger\getuserlist_dialog.cpp
 
 debug/joinchannel_dialog.o: ../massenger/joinchannel_dialog.cpp ../massenger/joinchannel_dialog.h \
@@ -3341,7 +4366,111 @@ debug/joinchannel_dialog.o: ../massenger/joinchannel_dialog.cpp ../massenger/joi
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_joinchannel_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_joinchannel_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\joinchannel_dialog.o ..\massenger\joinchannel_dialog.cpp
 
 debug/joingroup_dialog.o: ../massenger/joingroup_dialog.cpp ../massenger/joingroup_dialog.h \
@@ -3478,7 +4607,111 @@ debug/joingroup_dialog.o: ../massenger/joingroup_dialog.cpp ../massenger/joingro
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_joingroup_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_joingroup_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\joingroup_dialog.o ..\massenger\joingroup_dialog.cpp
 
 debug/main.o: ../massenger/main.cpp ../massenger/mainwindow.h \
@@ -3663,6 +4896,10 @@ debug/main.o: ../massenger/main.cpp ../massenger/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qdialog.h \
 		../massenger/menu_dialog.h \
 		../massenger/sendmessageuser_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		../massenger/sendmessagegroup_dialog.h \
 		../massenger/sendmessagechannel_dialog.h \
 		../massenger/creategroup_dialog.h \
@@ -3876,6 +5113,10 @@ debug/mainwindow.o: ../massenger/mainwindow.cpp ../massenger/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qdialog.h \
 		../massenger/menu_dialog.h \
 		../massenger/sendmessageuser_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		../massenger/sendmessagegroup_dialog.h \
 		../massenger/sendmessagechannel_dialog.h \
 		../massenger/creategroup_dialog.h \
@@ -3885,7 +5126,54 @@ debug/mainwindow.o: ../massenger/mainwindow.cpp ../massenger/mainwindow.h \
 		../massenger/getuserlist_dialog.h \
 		../massenger/getgrouplist_dialog.h \
 		../massenger/getchannellist_dialog.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFrame \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\massenger\mainwindow.cpp
 
 debug/menu_dialog.o: ../massenger/menu_dialog.cpp ../massenger/menu_dialog.h \
@@ -4023,6 +5311,52 @@ debug/menu_dialog.o: ../massenger/menu_dialog.cpp ../massenger/menu_dialog.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		../massenger/sendmessageuser_dialog.h \
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
 		../massenger/sendmessagegroup_dialog.h \
 		../massenger/sendmessagechannel_dialog.h \
 		../massenger/creategroup_dialog.h \
@@ -4032,7 +5366,39 @@ debug/menu_dialog.o: ../massenger/menu_dialog.cpp ../massenger/menu_dialog.h \
 		../massenger/getuserlist_dialog.h \
 		../massenger/getgrouplist_dialog.h \
 		../massenger/getchannellist_dialog.h \
-		ui_menu_dialog.h
+		ui_menu_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QSplitter \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qsplitter.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\menu_dialog.o ..\massenger\menu_dialog.cpp
 
 debug/sendmessagechannel_dialog.o: ../massenger/sendmessagechannel_dialog.cpp ../massenger/sendmessagechannel_dialog.h \
@@ -4169,7 +5535,114 @@ debug/sendmessagechannel_dialog.o: ../massenger/sendmessagechannel_dialog.cpp ..
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_sendmessagechannel_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_sendmessagechannel_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sendmessagechannel_dialog.o ..\massenger\sendmessagechannel_dialog.cpp
 
 debug/sendmessagegroup_dialog.o: ../massenger/sendmessagegroup_dialog.cpp ../massenger/sendmessagegroup_dialog.h \
@@ -4306,7 +5779,114 @@ debug/sendmessagegroup_dialog.o: ../massenger/sendmessagegroup_dialog.cpp ../mas
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_sendmessagegroup_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_sendmessagegroup_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sendmessagegroup_dialog.o ..\massenger\sendmessagegroup_dialog.cpp
 
 debug/sendmessageuser_dialog.o: ../massenger/sendmessageuser_dialog.cpp ../massenger/sendmessageuser_dialog.h \
@@ -4443,7 +6023,114 @@ debug/sendmessageuser_dialog.o: ../massenger/sendmessageuser_dialog.cpp ../masse
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_sendmessageuser_dialog.h
+		../massenger/api.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QByteArray \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTextStream \
+		ui_sendmessageuser_dialog.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QListView \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sendmessageuser_dialog.o ..\massenger\sendmessageuser_dialog.cpp
 
 debug/qrc_RS.o: debug/qrc_RS.cpp 

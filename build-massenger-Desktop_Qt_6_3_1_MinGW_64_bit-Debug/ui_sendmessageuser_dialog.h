@@ -35,13 +35,13 @@ public:
     QPushButton *confirm_pushButton;
     QGroupBox *chat_groupBox;
     QGridLayout *gridLayout;
+    QLineEdit *send_lineEdit;
+    QPushButton *send_pushButton;
     QHBoxLayout *horizontalLayout_2;
     QLabel *name_label;
     QLineEdit *recieved_username_lineEdit;
-    QListView *massege_listView;
-    QLineEdit *send_lineEdit;
     QPushButton *back_chat_pushButton;
-    QPushButton *send_pushButton;
+    QListView *massege_listView;
 
     void setupUi(QDialog *sendmessageuser_Dialog)
     {
@@ -88,10 +88,21 @@ public:
 
         chat_groupBox = new QGroupBox(sendmessageuser_Dialog);
         chat_groupBox->setObjectName(QString::fromUtf8("chat_groupBox"));
-        chat_groupBox->setGeometry(QRect(320, 190, 447, 341));
+        chat_groupBox->setGeometry(QRect(320, 190, 500, 285));
         chat_groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(6, 6, 6);"));
         gridLayout = new QGridLayout(chat_groupBox);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        send_lineEdit = new QLineEdit(chat_groupBox);
+        send_lineEdit->setObjectName(QString::fromUtf8("send_lineEdit"));
+
+        gridLayout->addWidget(send_lineEdit, 1, 1, 1, 2);
+
+        send_pushButton = new QPushButton(chat_groupBox);
+        send_pushButton->setObjectName(QString::fromUtf8("send_pushButton"));
+        send_pushButton->setFont(font);
+
+        gridLayout->addWidget(send_pushButton, 2, 2, 1, 1);
+
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         name_label = new QLabel(chat_groupBox);
@@ -111,27 +122,16 @@ public:
 
         gridLayout->addLayout(horizontalLayout_2, 0, 0, 1, 1);
 
-        massege_listView = new QListView(chat_groupBox);
-        massege_listView->setObjectName(QString::fromUtf8("massege_listView"));
-
-        gridLayout->addWidget(massege_listView, 0, 1, 1, 2);
-
-        send_lineEdit = new QLineEdit(chat_groupBox);
-        send_lineEdit->setObjectName(QString::fromUtf8("send_lineEdit"));
-
-        gridLayout->addWidget(send_lineEdit, 1, 1, 1, 2);
-
         back_chat_pushButton = new QPushButton(chat_groupBox);
         back_chat_pushButton->setObjectName(QString::fromUtf8("back_chat_pushButton"));
         back_chat_pushButton->setFont(font);
 
         gridLayout->addWidget(back_chat_pushButton, 2, 1, 1, 1);
 
-        send_pushButton = new QPushButton(chat_groupBox);
-        send_pushButton->setObjectName(QString::fromUtf8("send_pushButton"));
-        send_pushButton->setFont(font);
+        massege_listView = new QListView(chat_groupBox);
+        massege_listView->setObjectName(QString::fromUtf8("massege_listView"));
 
-        gridLayout->addWidget(send_pushButton, 2, 2, 1, 1);
+        gridLayout->addWidget(massege_listView, 0, 1, 1, 2);
 
 
         retranslateUi(sendmessageuser_Dialog);
@@ -148,10 +148,10 @@ public:
         back_pushButton->setText(QCoreApplication::translate("sendmessageuser_Dialog", "back", nullptr));
         confirm_pushButton->setText(QCoreApplication::translate("sendmessageuser_Dialog", "confirm", nullptr));
         chat_groupBox->setTitle(QString());
-        name_label->setText(QCoreApplication::translate("sendmessageuser_Dialog", "name :", nullptr));
         send_lineEdit->setText(QString());
-        back_chat_pushButton->setText(QCoreApplication::translate("sendmessageuser_Dialog", "back", nullptr));
         send_pushButton->setText(QCoreApplication::translate("sendmessageuser_Dialog", "send", nullptr));
+        name_label->setText(QCoreApplication::translate("sendmessageuser_Dialog", "name :", nullptr));
+        back_chat_pushButton->setText(QCoreApplication::translate("sendmessageuser_Dialog", "back", nullptr));
     } // retranslateUi
 
 };
