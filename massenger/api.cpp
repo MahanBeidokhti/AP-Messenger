@@ -29,11 +29,18 @@ void API::log(const QString &username ,const QString &password)
     connect(rep,&QNetworkReply::finished,this,&API::Gather);
 }
 
-void API::chatload(const QString &username, const QString &token,const QString &type)
+void API::chatload(const QString &username, const QString &token, const QString &type)
 {
     QString command = host+"/get"+type+"chats?token="+token+"&dst="+username;
     rep = manager->get(QNetworkRequest(QUrl(command)));
     connect(rep,&QNetworkReply::finished,this,&API::GetChat_Gather);
+}
+
+void API::sendMessage(const QString &body, const QString &username,const QString &token, const QString &type)
+{
+    QString command = host+"sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body;
+    rep = manager->get(QNetworkRequest(QUrl(command)));
+    connect(rep,&QNetworkReply::finished,this,&API::SendChat_Gather);
 }
 
 void API::Gather()
@@ -63,6 +70,21 @@ void API::GetChat_Gather()
     {
         data = NULL;
         emit UCG_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::SendChat_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit Send_UCG_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit Send_UCG_Fail(rep);
     }
     rep->deleteLater();
 }

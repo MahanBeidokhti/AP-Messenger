@@ -25,6 +25,9 @@ private slots:
     void on_back_chat_pushButton_clicked();
     void UserChatLoader(QByteArray *data);
     void UserChatError(QNetworkReply *rep);
+    void on_send_pushButton_clicked();
+    void UserSendLoader(QByteArray *data);
+    void UserSendError(QNetworkReply *rep);
 
 private:
     Ui::sendmessageuser_Dialog *ui;

@@ -8,7 +8,6 @@ sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
-
 }
 
 sendmessageuser_Dialog::~sendmessageuser_Dialog()
@@ -19,7 +18,7 @@ sendmessageuser_Dialog::~sendmessageuser_Dialog()
 void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
 {
    QString username = ui->username_lineEdit->text();
-   //file
+   //file : opening token file and filling string:token with file
    QString tok;
    ap->chatload(username,tok,"user");
    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
@@ -45,10 +44,34 @@ void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
     QJsonObject JV = JAnswer.object();
     QString code =  JV.value("code").toString();
-    //file...
+    //file : writing JV.Value("Block ") to messages file and adding theme to qlistview
 }
 
 void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
 {
+    ui->username_lineEdit->setPlaceholderText(rep->errorString());
+}
 
+void sendmessageuser_Dialog::on_send_pushButton_clicked()
+{
+    //file : opening token file and filling string:token with file
+    QString token;
+    ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"uesr");
+    connect(ap,&API::Send_UCG_Succ,this,&::sendmessageuser_Dialog::UserSendLoader);
+    connect(ap,&API::Send_UCG_Fail,this,&::sendmessageuser_Dialog::UserSendError);
+}
+
+void UserSendLoader(QByteArray *data)
+{
+    QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
+    QJsonObject JV = JAnswer.object();
+    QString code =  JV.value("code").toString();
+    QString message = JV.value("message").toString();
+    qDebug()<<code;
+    qDebug()<<message;
+}
+
+void UserSendError(QNetworkReply *rep)
+{
+    qDebug()<<rep->errorString();
 }
