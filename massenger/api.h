@@ -20,16 +20,21 @@ public:
     void sign(const QString &username ,const QString &password ,const QString &Fname,const QString &Lname);
     //sending Log in command to server and gathering the results
     void log(const QString &username ,const QString &password);
-
+    //getting user chats
+    void chatuser(const QString &username, const QString &token);
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
     void NoError(QByteArray* data);
     //signal of a situation wich there is no error and you want to use the response of the server
     void Error(QNetworkReply* data);
+    //UserChannelGroupe successful/fail
+    void UCG_Succ(QByteArray* data);
+    void UCG_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
     void Gather();
+    void GetChat_Gather();
 
 private:
     //variable wich allows us to send request to the http server (api)
@@ -40,6 +45,7 @@ private:
     QByteArray* data;
     //host name (api.barafardayebehtar.ml:8080)
     QString host;
+
 };
 
 #endif // API_H
