@@ -53,7 +53,13 @@
           <pointsize>13</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
          <string/>
         </property>
        </widget>
@@ -153,6 +159,8 @@
     </item>
    </layout>
   </widget>
+  <zorder>chat_groupBox</zorder>
+  <zorder>username_groupBox</zorder>
  </widget>
  <resources/>
  <connections/>
