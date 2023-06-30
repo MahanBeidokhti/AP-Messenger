@@ -70,8 +70,15 @@ void MainWindow::reader(QByteArray *data)
             this->hide();
             menu_dialog->show();
             //file
-            //saving token in file
+            QFile tokenFile("token.txt");
             QString token = JV.value("token").toString();
+            if (!tokenFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+               qDebug()<<"file cant be open";
+            }
+            else{
+                QTextStream stream(&tokenFile);
+                stream<<token;
+            }
         }
         else if(message == "Signed Up Successfully")
         {

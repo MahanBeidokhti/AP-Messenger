@@ -83,8 +83,9 @@ void menu_Dialog::on_getchannellist_pushButton_clicked()
 
 void menu_Dialog::on_logout_pushButton_clicked()
 {
-    QFile userpassFile("userpath.txt");
-       if (!userpassFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+       QFile userpassFile("userpath.txt");
+       QEventLoop eventLoop;
+       if (!userpassFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
            qDebug()<<"file cant be open";
        }
        else{
@@ -94,11 +95,14 @@ void menu_Dialog::on_logout_pushButton_clicked()
            stream >>line_urenm;
            stream >>line_pass;
 
+
            QString command = "http://api.barafardayebehtar.ml:8080/logout?username="+line_urenm+"&password="+line_pass;
            QNetworkAccessManager* manager;
            manager = new QNetworkAccessManager();
            QNetworkReply* rep;
            rep = manager->get(QNetworkRequest(QUrl(command)));
+           connect(rep, &QNetworkReply::finished, &eventLoop, &QEventLoop::quit);
+           eventLoop.exec();
            if(rep->error()==QNetworkReply::NoError)
            {
                qDebug()<<"log out successfully";
@@ -108,7 +112,13 @@ void menu_Dialog::on_logout_pushButton_clicked()
            {
                qDebug()<<"Error";
            }
+           userpassFile.resize(0); //empty userfile
+
+           QFile tokenFile("token.txt"); //empty token
+           tokenFile.resize(0);
+
            userpassFile.close();
+
        }
 }
 

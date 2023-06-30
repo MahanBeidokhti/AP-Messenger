@@ -29,9 +29,9 @@ void API::log(const QString &username ,const QString &password)
     connect(rep,&QNetworkReply::finished,this,&API::Gather);
 }
 
-void API::chatuser(const QString &username, const QString &token)
+void API::chatload(const QString &username, const QString &token,const QString &type)
 {
-    QString command = host+"/getuserchats?token="+token+"&dst="+username;
+    QString command = host+"/get"+type+"chats?token="+token+"&dst="+username;
     rep = manager->get(QNetworkRequest(QUrl(command)));
     connect(rep,&QNetworkReply::finished,this,&API::GetChat_Gather);
 }
