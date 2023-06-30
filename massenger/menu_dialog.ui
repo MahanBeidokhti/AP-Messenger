@@ -19,8 +19,8 @@
   <widget class="QPushButton" name="logout_pushButton">
    <property name="geometry">
     <rect>
-     <x>620</x>
-     <y>570</y>
+     <x>550</x>
+     <y>560</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -32,24 +32,6 @@
    </property>
    <property name="text">
     <string>logout</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="back_pushButton">
-   <property name="geometry">
-    <rect>
-     <x>480</x>
-     <y>570</y>
-     <width>131</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>14</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>back</string>
    </property>
   </widget>
   <widget class="QSplitter" name="splitter">

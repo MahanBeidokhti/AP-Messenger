@@ -2,6 +2,7 @@
 #define GETCHANNELLIST_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class getchannellist_Dialog;

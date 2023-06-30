@@ -2,6 +2,7 @@
 #define SENDMESSAGECHANNEL_DIALOG_H
 
 #include <QDialog>
+#include "api.h"
 
 namespace Ui {
 class sendmessagechannel_Dialog;
