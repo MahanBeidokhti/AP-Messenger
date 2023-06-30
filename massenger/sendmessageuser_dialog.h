@@ -18,13 +18,16 @@ public:
 
 private slots:
     void on_confirm_pushButton_clicked();
-
     void on_back_pushButton_clicked();
-
     void on_back_chat_pushButton_clicked();
+    void UserChatLoader(QByteArray *data);
+    void UserChatError(QNetworkReply *rep);
 
 private:
     Ui::sendmessageuser_Dialog *ui;
+    API *ap;
+    //یه وکتور از مسیج ها که داخل تابع userchatloader ، به تعداد پیام های موجود، پر بشه
+
 };
 
 #endif // SENDMESSAGEUSER_DIALOG_H

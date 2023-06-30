@@ -17,7 +17,6 @@ void menu_Dialog::on_SMS_user_pushButton_clicked()
 {
     sendMessageUser_dialog = new sendmessageuser_Dialog();
     sendMessageUser_dialog->show();
-    connect(sendMessageUser_dialog, SIGNAL(clicked()),this , SLOT(connected()));
 }
 
 

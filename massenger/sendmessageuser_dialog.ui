@@ -81,8 +81,8 @@
     <rect>
      <x>320</x>
      <y>190</y>
-     <width>447</width>
-     <height>341</height>
+     <width>500</width>
+     <height>285</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -92,6 +92,25 @@
     <string/>
    </property>
    <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="send_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="send_pushButton">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>send</string>
+      </property>
+     </widget>
+    </item>
     <item row="0" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
@@ -117,16 +136,6 @@
       </item>
      </layout>
     </item>
-    <item row="0" column="1" colspan="2">
-     <widget class="QListView" name="massege_listView"/>
-    </item>
-    <item row="1" column="1" colspan="2">
-     <widget class="QLineEdit" name="send_lineEdit">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
     <item row="2" column="1">
      <widget class="QPushButton" name="back_chat_pushButton">
       <property name="font">
@@ -139,17 +148,8 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="2">
-     <widget class="QPushButton" name="send_pushButton">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>send</string>
-      </property>
-     </widget>
+    <item row="0" column="1" colspan="2">
+     <widget class="QListView" name="massege_listView"/>
     </item>
    </layout>
   </widget>
