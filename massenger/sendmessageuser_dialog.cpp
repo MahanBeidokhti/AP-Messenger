@@ -1,5 +1,10 @@
 #include "sendmessageuser_dialog.h"
 #include "ui_sendmessageuser_dialog.h"
+#include <iostream>
+#include <string>
+
+
+using namespace std;
 
 sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
     QDialog(parent),
@@ -18,8 +23,15 @@ sendmessageuser_Dialog::~sendmessageuser_Dialog()
 void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
 {
    QString username = ui->username_lineEdit->text();
-   //file : opening token file and filling string:token with file
    QString tok;
+   QFile tokenFile("token.txt");
+   if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+      qDebug()<<"file cant be open";
+   }
+   else{
+       QTextStream stream(&tokenFile);
+       stream>>tok;
+   }
    ap->chatload(username,tok,"user");
    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
@@ -43,8 +55,30 @@ void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
 {
     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
     QJsonObject JV = JAnswer.object();
+    QJsonObject JV2;
     QString code =  JV.value("code").toString();
+    qDebug()<< code << "  okokok";
     //file : writing JV.Value("Block ") to messages file and adding theme to qlistview
+
+    QFile messageFile("msgfile.json");
+    //QTextStream stream(&messageFile);
+
+//    string msg = JV.value("message").toString().toStdString();
+//    string a;
+//    for( int i = 12 ; msg[i] != '-' ; i++)
+//         a += msg[i];
+
+//    int b = stoi(a);
+     if (!messageFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+          qDebug()<<"file cant be open";
+      }
+      else{
+           messageFile.write(JAnswer.toJson());
+           messageFile.close();
+      }
+
+
+
 }
 
 void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
@@ -54,14 +88,22 @@ void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
 
 void sendmessageuser_Dialog::on_send_pushButton_clicked()
 {
-    //file : opening token file and filling string:token with file
     QString token;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>token;
+    }
+    qDebug()<<token;
     ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"uesr");
     connect(ap,&API::Send_UCG_Succ,this,&::sendmessageuser_Dialog::UserSendLoader);
     connect(ap,&API::Send_UCG_Fail,this,&::sendmessageuser_Dialog::UserSendError);
 }
 
-void UserSendLoader(QByteArray *data)
+void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
 {
     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
     QJsonObject JV = JAnswer.object();
@@ -71,7 +113,7 @@ void UserSendLoader(QByteArray *data)
     qDebug()<<message;
 }
 
-void UserSendError(QNetworkReply *rep)
+void sendmessageuser_Dialog::UserSendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
 }

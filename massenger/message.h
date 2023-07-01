@@ -6,6 +6,7 @@
 class message
 {
 public:
+    message();
     message(QString _body , QString _src, QString _dst, QString _date);
     QString body;
     QString src;
