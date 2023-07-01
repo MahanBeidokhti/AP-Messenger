@@ -20,8 +20,8 @@ public:
     void sign(const QString &username ,const QString &password ,const QString &Fname,const QString &Lname);
     //sending Log in command to server and gathering the results
     void log(const QString &username ,const QString &password);
-    //getting user chats
 
+    //getting user chats
     void chatload(const QString &username, const QString &token, const QString &type);
     //sending user message
     void sendMessage(const QString &body, const QString &username,const QString &token, const QString &type);
@@ -31,20 +31,40 @@ signals:
     void NoError(QByteArray* data);
     //signal of a situation wich there is no error and you want to use the response of the server
     void Error(QNetworkReply* data);
-    //UserChannelGroupe successful/fail
+    //User successful/fail
     void UCG_Succ(QByteArray* data);
     void UCG_Fail(QNetworkReply* data);
-    //Sending message to UCG
+    //Sending message to User
     void Send_UCG_Succ(QByteArray* data);
     void Send_UCG_Fail(QNetworkReply* data);
+    //groupe successful/fail
+    void G_Succ(QByteArray* data);
+    void G_Fail(QNetworkReply* data);
+    //Sending message to groupe
+    void Send_G_Succ(QByteArray* data);
+    void Send_G_Fail(QNetworkReply* data);
+    //channel successful/fail
+    void C_Succ(QByteArray* data);
+    void C_Fail(QNetworkReply* data);
+    //Sending message to channel
+    void Send_C_Succ(QByteArray* data);
+    void Send_C_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
     void Gather();
-    //slot for gathering data in getting messages list
+    //User slot for gathering data in getting messages list
     void GetChat_Gather();
-    //slot for gathering data in sending message
+    //User slot for gathering data in sending message
     void SendChat_Gather();
+    //Groupe slot for gathering data in getting messages list
+    void GetChat_Gather_G();
+    //Groupe slot for gathering data in sending message
+    void SendChat_Gather_G();
+    //Groupe slot for gathering data in getting messages list
+    void GetChat_Gather_C();
+    //Groupe slot for gathering data in sending message
+    void SendChat_Gather_C();
 
 private:
     //variable wich allows us to send request to the http server (api)
