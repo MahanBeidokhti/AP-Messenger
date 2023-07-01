@@ -38,7 +38,8 @@ void API::chatload(const QString &username, const QString &token, const QString 
 
 void API::sendMessage(const QString &body, const QString &username,const QString &token, const QString &type)
 {
-    QString command = host+"sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body;
+    QString command = host+"/sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body;
+    qDebug() << command <<"   hamine";
     rep = manager->get(QNetworkRequest(QUrl(command)));
     connect(rep,&QNetworkReply::finished,this,&API::SendChat_Gather);
 }

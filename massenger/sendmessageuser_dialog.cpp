@@ -1,7 +1,7 @@
 #include "sendmessageuser_dialog.h"
 #include "ui_sendmessageuser_dialog.h"
-#include <iostream>
 #include <string>
+#include <QEventLoop>
 
 
 using namespace std;
@@ -53,37 +53,76 @@ void sendmessageuser_Dialog::on_back_chat_pushButton_clicked()
 
 void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
 {
-    QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
-    QJsonObject JV = JAnswer.object();
-    QJsonObject JV2;
-    QString code =  JV.value("code").toString();
-    qDebug()<< code << "  okokok";
-    //file : writing JV.Value("Block ") to messages file and adding theme to qlistview
-
-    QFile messageFile("msgfile.json");
-    //QTextStream stream(&messageFile);
-
-//    string msg = JV.value("message").toString().toStdString();
-//    string a;
-//    for( int i = 12 ; msg[i] != '-' ; i++)
-//         a += msg[i];
-
-//    int b = stoi(a);
-     if (!messageFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+     ui->name_label->setText(ui->username_lineEdit->text());
+     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
+     QJsonObject JV = JAnswer.object();
+     QString code =  JV.value("code").toString();
+     qDebug()<< code;
+     QString filename = ui->username_lineEdit->text() + "_chat.json" ;
+     QFile messageFile(filename);
+     if (!messageFile.open(QIODevice::WriteOnly)) {
           qDebug()<<"file cant be open";
       }
       else{
+
            messageFile.write(JAnswer.toJson());
            messageFile.close();
+           ui->message_textEdit->clear();
+
+           string msg = JV.value("message").toString().toStdString();
+           string a;
+           for( int i = 11 ; msg[i] != '-' ; i++)
+                a += msg[i];
+
+            int b = stoi(a);
+
+
+           for( int i = 0 ; i < b ; i++){
+              QString blck = QString::fromStdString("block " + to_string(i));
+              QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
+
+             ui->message_textEdit->append(message);
+           }
       }
-
-
 
 }
 
 void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
 {
-    ui->username_lineEdit->setPlaceholderText(rep->errorString());
+    qDebug()<<rep->errorString();
+    ui->name_label->setText(ui->username_lineEdit->text() + "(offline)" );
+    QJsonDocument JAnswer;
+    QJsonObject JV;
+
+    QString filename = ui->username_lineEdit->text() + "_chat.json" ;
+    QFile messageFile(filename);
+     if (!messageFile.open(QIODevice::ReadOnly) ) {
+         qDebug()<<"file cant be open";
+     }
+     else{
+           QByteArray jsonData = messageFile.readAll();
+           JAnswer = QJsonDocument::fromJson(jsonData);
+           JV = JAnswer.object();
+           messageFile.close();
+
+            string msg = JV.value("message").toString().toStdString();
+            string a;
+            for( int i = 11 ; msg[i] != '-' ; i++)
+                a += msg[i];
+
+             int b = stoi(a);
+
+
+            for( int i = 0 ; i < b ; i++){
+              QString blck = QString::fromStdString("block " + to_string(i));
+              QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
+
+              ui->message_textEdit->append(message);
+            }
+
+
+     }
+
 }
 
 void sendmessageuser_Dialog::on_send_pushButton_clicked()
@@ -97,10 +136,18 @@ void sendmessageuser_Dialog::on_send_pushButton_clicked()
         QTextStream stream(&tokenFile);
         stream>>token;
     }
-    qDebug()<<token;
-    ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"uesr");
+
+    ap = new API(("http://api.barafardayebehtar.ml:8080"));
+
+    ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"user");
     connect(ap,&API::Send_UCG_Succ,this,&::sendmessageuser_Dialog::UserSendLoader);
     connect(ap,&API::Send_UCG_Fail,this,&::sendmessageuser_Dialog::UserSendError);
+
+    ap->chatload(ui->username_lineEdit->text(),token,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
+
+
 }
 
 void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
@@ -111,6 +158,9 @@ void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
     QString message = JV.value("message").toString();
     qDebug()<<code;
     qDebug()<<message;
+
+
+
 }
 
 void sendmessageuser_Dialog::UserSendError(QNetworkReply *rep)
