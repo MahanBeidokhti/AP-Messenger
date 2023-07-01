@@ -50,7 +50,7 @@ void API::chatload(const QString &username, const QString &token, const QString 
 
 void API::sendMessage(const QString &body, const QString &username,const QString &token, const QString &type)
 {
-    QString command = host+"/sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body;
+    QString command = host+"/sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body + type != "user" ? "%20all": "";
     rep = manager->get(QNetworkRequest(QUrl(command)));
     if (type == "user")
     {
