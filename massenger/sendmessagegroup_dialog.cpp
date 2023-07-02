@@ -1,6 +1,7 @@
 #include "sendmessagegroup_dialog.h"
 #include "ui_sendmessagegroup_dialog.h"
 #include <string>
+#include <QTimer>
 
 using namespace std;
 
@@ -11,6 +12,10 @@ sendmessagegroup_Dialog::sendmessagegroup_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    timer = new QTimer();
+    timer->setInterval(1000);
+    timer->start(1000);
+    connect(timer,&QTimer::timeout,this,&::sendmessagegroup_Dialog::Updater());
 }
 
 sendmessagegroup_Dialog::~sendmessagegroup_Dialog()
@@ -71,8 +76,6 @@ void sendmessagegroup_Dialog::ChatLoader(QByteArray *data)
            string a;
            for( int i = 11 ; msg[i] != '-' ; i++)
                 a += msg[i];
-
-           qDebug()<< JV.value("message").toString() <<"      loder";
 
             int b = stoi(a);
 
@@ -166,4 +169,21 @@ void sendmessagegroup_Dialog::SendLoader(QByteArray *data)
 void sendmessagegroup_Dialog::SendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
+}
+
+void sendmessagegroup_Dialog::Updater()
+{
+    QString username = ui->groupname_lineEdit->text();
+    QString tok;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>tok;
+    }
+    ap->chatload(username,tok,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessagegroup_Dialog::ChatError);
 }

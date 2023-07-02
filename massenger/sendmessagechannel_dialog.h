@@ -29,10 +29,13 @@ private slots:
     void on_send_pushButton_clicked();
     void SendLoader(QByteArray *data);
     void SendError(QNetworkReply *rep);
+    void Updater();
 
 private:
     Ui::sendmessagechannel_Dialog *ui;
     API *ap;
+    QTimer *timer;
+
 };
 
 #endif // SENDMESSAGECHANNEL_DIALOG_H

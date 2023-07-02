@@ -1,6 +1,7 @@
 #include "sendmessagechannel_dialog.h"
 #include "ui_sendmessagechannel_dialog.h"
 #include <string>
+#include <QTimer>
 
 using namespace std;
 
@@ -11,6 +12,10 @@ sendmessagechannel_Dialog::sendmessagechannel_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    timer = new QTimer();
+    timer->setInterval(1000);
+    timer->start(1000);
+    connect(timer,&QTimer::timeout,this,&::sendmessagechannel_Dialog::Updater);
 }
 
 sendmessagechannel_Dialog::~sendmessagechannel_Dialog()
@@ -43,7 +48,6 @@ void sendmessagechannel_Dialog::on_back_pushButton_clicked()
 {
     close();
 }
-
 
 void sendmessagechannel_Dialog::on_back_chat_pushButton_clicked()
 {
@@ -166,4 +170,21 @@ void sendmessagechannel_Dialog::SendLoader(QByteArray *data)
 void sendmessagechannel_Dialog::SendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
+}
+
+void sendmessagechannel_Dialog::Updater()
+{
+    QString username = ui->name_lineEdit->text();
+    QString tok;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>tok;
+    }
+    ap->chatload(username,tok,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessagechannel_Dialog::ChatError);
 }
