@@ -40,6 +40,12 @@ signals:
     //Sending message to UCG
     void Send_UCG_Succ(QByteArray* data);
     void Send_UCG_Fail(QNetworkReply* data);
+    //Sending message to C
+    void Send_C_Succ(QByteArray* data);
+    void Send_C_Fail(QNetworkReply* data);
+    //Sending message to G
+    void Send_G_Succ(QByteArray* data);
+    void Send_G_Fail(QNetworkReply* data);
     //creator connection check
     void Creat_C_Succ(QByteArray *data);
     void Creat_C_Fail(QNetworkReply* data);
@@ -58,6 +64,10 @@ private slots:
     void GetChat_Gather();
     //slot for gathering data in sending message
     void SendChat_Gather();
+    //slot for gathering data in sending message to group
+    void SendChat_G_Gather();
+    //slot for gathering data in sending message to channel
+    void SendChat_C_Gather();
     //Group slot for gathering data in creating group
     void Creat_Gather_G();
     //channel slot for gathering data in creating channel

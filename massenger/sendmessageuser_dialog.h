@@ -33,8 +33,6 @@ private slots:
 private:
     Ui::sendmessageuser_Dialog *ui;
     API *ap;
-
-
 };
 
 #endif // SENDMESSAGEUSER_DIALOG_H

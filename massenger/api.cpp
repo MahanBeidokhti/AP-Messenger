@@ -40,7 +40,18 @@ void API::sendMessage(const QString &body, const QString &username,const QString
 {
     QString command = host+"/sendmessage"+type+"?token="+token+"&dst="+username+"&body="+body;
     rep = manager->get(QNetworkRequest(QUrl(command)));
-    connect(rep,&QNetworkReply::finished,this,&API::SendChat_Gather);
+    if(type == "user")
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::SendChat_Gather);
+    }
+    else if(type == "group")
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::SendChat_G_Gather);
+    }
+    else
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::SendChat_C_Gather);
+    }
 }
 
 void API::creator(const QString &token, const QString &name, const QString &title, const QString &type)
@@ -111,6 +122,36 @@ void API::SendChat_Gather()
     rep->deleteLater();
 }
 
+void API::SendChat_G_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit Send_G_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit Send_G_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::SendChat_C_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit Send_C_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit Send_C_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
 void API::Creat_Gather_G()
 {
     if(rep->error()==QNetworkReply::NoError)
@@ -140,6 +181,7 @@ void API::Creat_Gather_C()
     }
     rep->deleteLater();
 }
+
 void API::join_Gather_G()
 {
     if(rep->error()==QNetworkReply::NoError)
@@ -153,8 +195,8 @@ void API::join_Gather_G()
         emit join_G_Fail(rep);
     }
     rep->deleteLater();
-
 }
+
 void API::join_Gather_C()
 {
     if(rep->error()==QNetworkReply::NoError)
@@ -168,6 +210,4 @@ void API::join_Gather_C()
         emit join_C_Fail(rep);
     }
     rep->deleteLater();
-
 }
-
