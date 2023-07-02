@@ -15,6 +15,6 @@ getuserlist_Dialog::~getuserlist_Dialog()
 
 void getuserlist_Dialog::on_pushButton_clicked()
 {
-    hide();
+    close();
 }
 
