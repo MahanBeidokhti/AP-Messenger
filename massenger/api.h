@@ -21,13 +21,13 @@ public:
     //sending Log in command to server and gathering the results
     void log(const QString &username ,const QString &password);
     //getting user chats
-
     void chatload(const QString &username, const QString &token, const QString &type);
     //sending user message
     void sendMessage(const QString &body, const QString &username,const QString &token, const QString &type);
     //creating channel and group
-     void creator(const QString &token, const QString &name, const QString &title, const QString &type);
-
+    void creator(const QString &token, const QString &name, const QString &title, const QString &type);
+    //joining channel and group
+    void joiner(const QString &token, const QString &name, const QString &type);
 
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
@@ -45,6 +45,11 @@ signals:
     void Creat_C_Fail(QNetworkReply* data);
     void Creat_G_Succ(QByteArray *data);
     void Creat_G_Fail(QNetworkReply* data);
+    //joiner connection check
+    void join_G_Succ(QByteArray *data);
+    void join_G_Fail(QNetworkReply* data);
+    void join_C_Succ(QByteArray *data);
+    void join_C_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
@@ -57,6 +62,10 @@ private slots:
     void Creat_Gather_G();
     //channel slot for gathering data in creating channel
     void Creat_Gather_C();
+    //Group slot for gathering data in joining group
+    void join_Gather_G();
+    //channel slot for gathering data in joining channel
+    void join_Gather_C();
 
 private:
     //variable wich allows us to send request to the http server (api)

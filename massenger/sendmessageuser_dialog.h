@@ -33,7 +33,7 @@ private slots:
 private:
     Ui::sendmessageuser_Dialog *ui;
     API *ap;
-    //یه وکتور از مسیج ها که داخل تابع userchatloader ، به تعداد پیام های موجود، پر بشه
+
 
 };
 
