@@ -25,6 +25,9 @@ public:
     void chatload(const QString &username, const QString &token, const QString &type);
     //sending user message
     void sendMessage(const QString &body, const QString &username,const QString &token, const QString &type);
+    //creating channel and group
+     void creator(const QString &token, const QString &name, const QString &title, const QString &type);
+
 
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
@@ -37,6 +40,11 @@ signals:
     //Sending message to UCG
     void Send_UCG_Succ(QByteArray* data);
     void Send_UCG_Fail(QNetworkReply* data);
+    //creator connection check
+    void Creat_C_Succ(QByteArray *data);
+    void Creat_C_Fail(QNetworkReply* data);
+    void Creat_G_Succ(QByteArray *data);
+    void Creat_G_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
@@ -45,6 +53,10 @@ private slots:
     void GetChat_Gather();
     //slot for gathering data in sending message
     void SendChat_Gather();
+    //Group slot for gathering data in creating group
+    void Creat_Gather_G();
+    //channel slot for gathering data in creating channel
+    void Creat_Gather_C();
 
 private:
     //variable wich allows us to send request to the http server (api)
