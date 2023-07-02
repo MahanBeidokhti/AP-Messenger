@@ -66,6 +66,16 @@ void API::sendMessage(const QString &body, const QString &username,const QString
     }
 }
 
+void API::creator(const QString &token, const QString &name, const QString &title, const QString &type)
+{
+    QString command = host+"/create"+type+"?token="+token+"&"+type+"_name="+name+"&"+type+"_title="+title;
+    rep = manager->get(QNetworkRequest(QUrl(command)));
+    if (type == "group")
+        connect(rep,&QNetworkReply::finished,this,&API::Creat_Gather_G);
+    else
+        connect(rep,&QNetworkReply::finished,this,&API::Creat_Gather_C);
+}
+
 void API::Gather()
 {
     //check if sending request was successful, read data.
@@ -168,6 +178,36 @@ void API::SendChat_Gather_C()
     {
         data = NULL;
         emit Send_C_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::Creat_Gather_G()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit Creat_G_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit Creat_G_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::Creat_Gather_C()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit Creat_C_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit Creat_C_Fail(rep);
     }
     rep->deleteLater();
 }

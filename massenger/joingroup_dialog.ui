@@ -153,6 +153,8 @@ border-top-color: rgb(255, 101, 24);</string>
     </item>
    </layout>
   </widget>
+  <zorder>chat_groupBox</zorder>
+  <zorder>groupinformation_groupBox</zorder>
  </widget>
  <resources/>
  <connections/>
