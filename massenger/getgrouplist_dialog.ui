@@ -16,11 +16,11 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/Source/@metawalls.jpg);</string>
   </property>
-  <widget class="QGroupBox" name="groups_groupBox">
+  <widget class="QGroupBox" name="user_groupBox">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>140</y>
+     <x>420</x>
+     <y>220</y>
      <width>631</width>
      <height>461</height>
     </rect>
@@ -35,20 +35,16 @@
 background-color: rgb(0, 0, 0);</string>
    </property>
    <property name="title">
-    <string>Groups</string>
+    <string>Users</string>
    </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton">
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextEdit" name="group_list_textEdit"/>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="group_pushButton">
       <property name="text">
        <string>back</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0" colspan="2">
-     <widget class="QListView" name="groups_listView">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
       </property>
      </widget>
     </item>

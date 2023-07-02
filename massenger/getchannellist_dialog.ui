@@ -16,11 +16,11 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/Source/@metawalls.jpg);</string>
   </property>
-  <widget class="QGroupBox" name="channels_groupBox">
+  <widget class="QGroupBox" name="user_groupBox">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>110</y>
+     <x>400</x>
+     <y>120</y>
      <width>631</width>
      <height>461</height>
     </rect>
@@ -35,20 +35,16 @@
 background-color: rgb(0, 0, 0);</string>
    </property>
    <property name="title">
-    <string>Channels</string>
+    <string>Users</string>
    </property>
    <layout class="QFormLayout" name="formLayout">
-    <item row="1" column="0">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextEdit" name="channel_list_textEdit"/>
+    </item>
+    <item row="1" column="0" colspan="2">
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>back</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0" colspan="2">
-     <widget class="QListView" name="channels_listView">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
       </property>
      </widget>
     </item>

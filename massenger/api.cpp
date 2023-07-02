@@ -87,6 +87,23 @@ void API::joiner(const QString &token, const QString &name, const QString &type)
         connect(rep,&QNetworkReply::finished,this,&API::join_Gather_C);
 }
 
+void API::list(const QString &token, const QString &type)
+{
+    QString command = host+"/get"+type+"list?token="+token;
+    rep = manager->get(QNetworkRequest(QUrl(command)));
+    if(type == "user")
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::List_U_Gather);
+    }
+    else if(type == "group")
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::List_G_Gather);
+    }
+    else
+    {
+        connect(rep,&QNetworkReply::finished,this,&API::List_C_Gather);
+    }
+}
 
 void API::Gather()
 {
@@ -249,6 +266,51 @@ void API::join_Gather_C()
     {
         data = NULL;
         emit join_C_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::List_U_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit list_U_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit list_U_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::List_G_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit list_G_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit list_G_Fail(rep);
+    }
+    rep->deleteLater();
+}
+
+void API::List_C_Gather()
+{
+    if(rep->error()==QNetworkReply::NoError)
+    {
+        *data = rep->readAll();
+        emit list_C_Succ(data);
+    }
+    else
+    {
+        data = NULL;
+        emit list_C_Fail(rep);
     }
     rep->deleteLater();
 }

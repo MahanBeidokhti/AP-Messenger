@@ -28,7 +28,8 @@ public:
     void creator(const QString &token, const QString &name, const QString &title, const QString &type);
     //joining channel and group
     void joiner(const QString &token, const QString &name, const QString &type);
-
+    //UGC list reciever
+    void list(const QString &token, const QString &type);
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
     void NoError(QByteArray* data);
@@ -60,6 +61,13 @@ signals:
     void join_G_Fail(QNetworkReply* data);
     void join_C_Succ(QByteArray *data);
     void join_C_Fail(QNetworkReply* data);
+    //list connection checker
+    void list_U_Succ(QByteArray *data);
+    void list_U_Fail(QNetworkReply* data);
+    void list_G_Succ(QByteArray *data);
+    void list_G_Fail(QNetworkReply* data);
+    void list_C_Succ(QByteArray *data);
+    void list_C_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
@@ -82,7 +90,10 @@ private slots:
     void join_Gather_G();
     //channel slot for gathering data in joining channel
     void join_Gather_C();
-
+    //getting list of UGC
+    void List_U_Gather();
+    void List_G_Gather();
+    void List_C_Gather();
 
 private:
     //variable wich allows us to send request to the http server (api)

@@ -12,9 +12,7 @@
 #include "getuserlist_dialog.h"
 #include "getgrouplist_dialog.h"
 #include "getchannellist_dialog.h"
-
-
-
+#include "api.h"
 
 namespace Ui {
 class menu_Dialog;
@@ -30,25 +28,15 @@ public:
 
 private slots:
     void on_SMS_user_pushButton_clicked();
-
     void on_SMS_group_pushButton_clicked();
-
     void on_SMS_channel_pushButton_clicked();
-
     void on_creategroup_pushButton_clicked();
-
     void on_createchannel_pushButton_clicked();
-
     void on_joingroup_pushButton_clicked();
-
     void on_joinchannel_pushButton_clicked();
-
     void on_getuserlist_pushButton_clicked();
-
     void on_getgrouplist_pushButton_clicked();
-
     void on_getchannellist_pushButton_clicked();
-
     void on_logout_pushButton_clicked();
 
 private:

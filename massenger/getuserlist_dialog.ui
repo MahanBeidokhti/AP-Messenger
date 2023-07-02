@@ -38,17 +38,13 @@ background-color: rgb(0, 0, 0);</string>
     <string>Users</string>
    </property>
    <layout class="QFormLayout" name="formLayout">
-    <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextEdit" name="user_list_textEdit"/>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="usre_pushButton">
       <property name="text">
        <string>back</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0" colspan="2">
-     <widget class="QListView" name="user_listView">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
       </property>
      </widget>
     </item>
