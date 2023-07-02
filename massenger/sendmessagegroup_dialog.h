@@ -7,7 +7,6 @@
 #include <QTextStream>
 #include "message.h"
 
-
 namespace Ui {
 class sendmessagegroup_Dialog;
 }

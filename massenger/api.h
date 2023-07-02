@@ -35,10 +35,10 @@ signals:
     void NoError(QByteArray* data);
     //signal of a situation wich there is no error and you want to use the response of the server
     void Error(QNetworkReply* data);
-    //UserChannelGroupe successful/fail
+    //User successful/fail
     void UCG_Succ(QByteArray* data);
     void UCG_Fail(QNetworkReply* data);
-    //Sending message to UCG
+    //Sending message to User
     void Send_UCG_Succ(QByteArray* data);
     void Send_UCG_Fail(QNetworkReply* data);
     //Sending message to C
@@ -72,9 +72,9 @@ signals:
 private slots:
     //slot for gathering the server results
     void Gather();
-    //slot for gathering data in getting messages list
+    //User slot for gathering data in getting messages list
     void GetChat_Gather();
-    //slot for gathering data in sending message
+    //User slot for gathering data in sending message
     void SendChat_Gather();
     //slot for gathering data in sending message to group
     void SendChat_G_Gather();

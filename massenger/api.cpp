@@ -45,6 +45,7 @@ void API::chatload(const QString &username, const QString &token, const QString 
     {
         connect(rep,&QNetworkReply::finished,this,&API::GetChat_C_Gather);
     }
+
 }
 
 void API::sendMessage(const QString &body, const QString &username,const QString &token, const QString &type)
@@ -101,6 +102,7 @@ void API::list(const QString &token, const QString &type)
     else
     {
         connect(rep,&QNetworkReply::finished,this,&API::List_C_Gather);
+
     }
 }
 
@@ -180,6 +182,7 @@ void API::SendChat_Gather()
 }
 
 void API::SendChat_G_Gather()
+
 {
     if(rep->error()==QNetworkReply::NoError)
     {
@@ -245,6 +248,7 @@ void API::join_Gather_G()
     {
         *data = rep->readAll();
         emit join_G_Succ(data);
+
     }
     else
     {
