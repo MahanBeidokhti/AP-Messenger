@@ -3,7 +3,6 @@
 #include <string>
 
 
-
 using namespace std;
 
 sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
