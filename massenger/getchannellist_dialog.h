@@ -20,10 +20,13 @@ public:
     ~getchannellist_Dialog();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_channel_pushButton_clicked();
+    void succ_handler(QByteArray *data);
+    void fail_handler(QNetworkReply* rep);
 
 private:
     Ui::getchannellist_Dialog *ui;
+    API *ap;
 };
 
 #endif // GETCHANNELLIST_DIALOG_H
