@@ -20,10 +20,13 @@ public:
     ~getuserlist_Dialog();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_user_pushButton_clicked();
+    void succ_handler(QByteArray *data);
+    void fail_handler(QNetworkReply* rep);
 
 private:
     Ui::getuserlist_Dialog *ui;
+    API *ap;
 };
 
 #endif // GETUSERLIST_DIALOG_H

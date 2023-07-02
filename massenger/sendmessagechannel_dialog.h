@@ -23,11 +23,11 @@ private slots:
     void on_confirm_pushButton_clicked();
     void on_back_pushButton_clicked();
     void on_back_chat_pushButton_clicked();
-    void ChannelChatLoader(QByteArray *data);
-    void ChannelChatError(QNetworkReply *rep);
+    void ChatLoader(QByteArray *data);
+    void ChatError(QNetworkReply *rep);
     void on_send_pushButton_clicked();
-    void ChannelSendLoader(QByteArray *data);
-    void ChannelSendError(QNetworkReply *rep);
+    void SendLoader(QByteArray *data);
+    void SendError(QNetworkReply *rep);
 
 private:
     Ui::sendmessagechannel_Dialog *ui;

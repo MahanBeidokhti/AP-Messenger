@@ -5,8 +5,8 @@ createchannel_Dialog::createchannel_Dialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::createchannel_Dialog)
 {
+    ap = new API("http://api.barafardayebehtar.ml:8080");
     ui->setupUi(this);
-    ui->chat_groupBox->hide();
 }
 
 createchannel_Dialog::~createchannel_Dialog()
@@ -16,32 +16,44 @@ createchannel_Dialog::~createchannel_Dialog()
 
 void createchannel_Dialog::on_confirm_pushButton_clicked()
 {
-    ui->chat_groupBox->show();
-    ui->channelinformation_groupBox->hide();
+    QString channelname = ui->channelname_lineEdit->text();
+    QString channeltitle = ui->channeltitle_lineEdit->text();
+    if (channelname.isEmpty())
+    {
+        ui->error_label->setText("channel name can't be empty!");
+    }
+    else
+    {
+        QString token;
+        QFile tokenFile("token.txt");
+        if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+        }
+        else{
+            QTextStream stream(&tokenFile);
+            stream>>token;
+        }        ap->creator(token, channelname, channeltitle, "channel");
+        connect(ap,&API::Creat_C_Succ,this,&::createchannel_Dialog::succ_handler);
+        connect(ap,&API::Creat_C_Fail,this,&::createchannel_Dialog::fail_handler);
+    }
 }
 
 
 void createchannel_Dialog::on_back_pushButton_clicked()
 {
-    hide();
+    close();
 }
 
-
-void createchannel_Dialog::on_confirm_pushButton_2_clicked()
+void createchannel_Dialog::succ_handler(QByteArray *data)
 {
-    ui->chat_groupBox->show();
-    ui->channelinformation_groupBox->hide();
+    QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
+    QJsonObject JV = JAnswer.object();
+    QString code =  JV.value("code").toString();
+    qDebug()<< code;
+    close();
 }
 
-
-void createchannel_Dialog::on_back_pushButton_2_clicked()
+void createchannel_Dialog::fail_handler(QNetworkReply *rep)
 {
-    hide();
-}
-
-
-void createchannel_Dialog::on_back_chat_pushButton_clicked()
-{
-    ui->chat_groupBox->hide();
-    ui->channelinformation_groupBox->show();
+    ui->error_label->setText(rep->errorString());
 }

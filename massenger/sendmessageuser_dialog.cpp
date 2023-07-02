@@ -1,7 +1,6 @@
 #include "sendmessageuser_dialog.h"
 #include "ui_sendmessageuser_dialog.h"
 #include <string>
-#include <QEventLoop>
 
 using namespace std;
 
@@ -35,18 +34,18 @@ void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
    ui->chat_groupBox->show();
-   ui->username_groupBox->hide();
+   ui->username_groupBox->close();
 }
 
 
 void sendmessageuser_Dialog::on_back_pushButton_clicked()
 {
-   hide();
+   close();
 }
 
 void sendmessageuser_Dialog::on_back_chat_pushButton_clicked()
 {
-    ui->chat_groupBox->hide();
+    ui->chat_groupBox->close();
     ui->username_groupBox->show();
 }
 
@@ -80,7 +79,7 @@ void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
               QString blck = QString::fromStdString("block " + to_string(i));
               QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
 
-             ui->message_textEdit->append(message);
+              ui->message_textEdit->append(message);
            }
       }
 
@@ -136,25 +135,33 @@ void sendmessageuser_Dialog::on_send_pushButton_clicked()
         stream>>token;
     }
 
-    ap = new API(("http://api.barafardayebehtar.ml:8080"));
-
     ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"user");
     connect(ap,&API::Send_UCG_Succ,this,&::sendmessageuser_Dialog::UserSendLoader);
     connect(ap,&API::Send_UCG_Fail,this,&::sendmessageuser_Dialog::UserSendError);
-
-    ap->chatload(ui->username_lineEdit->text(),token,"user");
-    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
-    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
 }
 
 void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
 {
+    QString token;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>token;
+    }
     QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
     QJsonObject JV = JAnswer.object();
     QString code =  JV.value("code").toString();
     QString message = JV.value("message").toString();
-    qDebug()<<code;
-    qDebug()<<message;
+    qDebug()<<code << "   code";
+    qDebug()<<message << "    message";
+
+    ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    ap->chatload(ui->username_lineEdit->text(),token,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
 }
 
 void sendmessageuser_Dialog::UserSendError(QNetworkReply *rep)

@@ -20,10 +20,13 @@ public:
     ~getgrouplist_Dialog();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_group_pushButton_clicked();
+    void succ_handler(QByteArray *data);
+    void fail_handler(QNetworkReply* rep);
 
 private:
     Ui::getgrouplist_Dialog *ui;
+    API *ap;
 };
 
 #endif // GETGROUPLIST_DIALOG_H

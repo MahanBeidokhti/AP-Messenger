@@ -21,17 +21,13 @@ public:
 
 private slots:
     void on_confirm_pushButton_clicked();
-
     void on_back_pushButton_clicked();
-
-    void on_confirm_pushButton_2_clicked();
-
-    void on_back_pushButton_2_clicked();
-
-    void on_back_chat_pushButton_clicked();
+    void succ_handler(QByteArray *data);
+    void fail_handler(QNetworkReply *rep);
 
 private:
     Ui::createchannel_Dialog *ui;
+    API *ap;
 };
 
 #endif // CREATECHANNEL_DIALOG_H

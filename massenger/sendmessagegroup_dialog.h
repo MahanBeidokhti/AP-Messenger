@@ -23,11 +23,11 @@ private slots:
     void on_confirm_pushButton_clicked();
     void on_back_pushButton_clicked();
     void on_back_chat_pushButton_clicked();
-    void GroupeChatLoader(QByteArray *data);
-    void GroupeChatError(QNetworkReply *rep);
+    void ChatLoader(QByteArray *data);
+    void ChatError(QNetworkReply *rep);
     void on_send_pushButton_clicked();
-    void GroupeSendLoader(QByteArray *data);
-    void GroupeSendError(QNetworkReply *rep);
+    void SendLoader(QByteArray *data);
+    void SendError(QNetworkReply *rep);
 
 private:
     Ui::sendmessagegroup_Dialog *ui;
