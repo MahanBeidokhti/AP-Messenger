@@ -6,7 +6,7 @@ joingroup_Dialog::joingroup_Dialog(QWidget *parent) :
     ui(new Ui::joingroup_Dialog)
 {
     ui->setupUi(this);
-    ui->chat_groupBox->hide();
+    ap = new API("http://api.barafardayebehtar.ml:8080");
 }
 
 joingroup_Dialog::~joingroup_Dialog()
@@ -16,20 +16,47 @@ joingroup_Dialog::~joingroup_Dialog()
 
 void joingroup_Dialog::on_confirm_pushButton_clicked()
 {
-    ui->chat_groupBox->show();
-    ui->groupinformation_groupBox->hide();
+    QString groupname = ui->groupname_lineEdit->text();
+    if (groupname.isEmpty())
+    {
+        ui->error_label->setText("group name can't be empty!");
+    }
+    else
+    {
+        QString token;
+        QFile tokenFile("token.txt");
+        if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+        }
+        else{
+            QTextStream stream(&tokenFile);
+            stream>>token;
+        }
+        ap->joiner(token, groupname , "group");
+        connect(ap,&API::join_G_Succ,this,&::joingroup_Dialog::succ_handler);
+        connect(ap,&API::join_G_Fail,this,&::joingroup_Dialog::fail_handler);
+    }
 }
 
 
 void joingroup_Dialog::on_back_pushButton_clicked()
 {
-    hide();
+    close();
 }
 
-
-void joingroup_Dialog::on_back_chat_pushButton_clicked()
+void joingroup_Dialog::succ_handler(QByteArray *data)
 {
-    ui->chat_groupBox->hide();
-    ui->groupinformation_groupBox->show();
+    QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
+    QJsonObject JV = JAnswer.object();
+    QString code =  JV.value("code").toString();
+    qDebug()<< code;
+    close();
 }
+
+void joingroup_Dialog::fail_handler(QNetworkReply *rep)
+{
+    ui->error_label->setText(rep->errorString());
+}
+
+
 

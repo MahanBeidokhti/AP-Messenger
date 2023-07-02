@@ -25,7 +25,14 @@ void creategroup_Dialog::on_confirm_pushButton_clicked()
     else
     {
         QString token;
-        //file: open json
+        QFile tokenFile("token.txt");
+        if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+        }
+        else{
+            QTextStream stream(&tokenFile);
+            stream>>token;
+        }
         ap->creator(token, groupname, grouptitle, "group");
         connect(ap,&API::Creat_G_Succ,this,&::creategroup_Dialog::succ_handler);
         connect(ap,&API::Creat_G_Fail,this,&::creategroup_Dialog::fail_handler);

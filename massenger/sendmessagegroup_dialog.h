@@ -7,6 +7,7 @@
 #include <QTextStream>
 #include "message.h"
 
+
 namespace Ui {
 class sendmessagegroup_Dialog;
 }
@@ -21,17 +22,13 @@ public:
 
 private slots:
     void on_confirm_pushButton_clicked();
+
     void on_back_pushButton_clicked();
+
     void on_back_chat_pushButton_clicked();
-    void GroupeChatLoader(QByteArray *data);
-    void GroupeChatError(QNetworkReply *rep);
-    void on_send_pushButton_clicked();
-    void GroupeSendLoader(QByteArray *data);
-    void GroupeSendError(QNetworkReply *rep);
 
 private:
     Ui::sendmessagegroup_Dialog *ui;
-    API *ap;
 };
 
 #endif // SENDMESSAGEGROUP_DIALOG_H

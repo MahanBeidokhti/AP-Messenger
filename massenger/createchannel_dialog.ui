@@ -16,13 +16,13 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/Source/@metawalls.jpg);</string>
   </property>
-  <widget class="QGroupBox" name="channelinformation_groupBox">
+  <widget class="QGroupBox" name="groupinformation_groupBox">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>250</y>
-     <width>311</width>
-     <height>211</height>
+     <x>360</x>
+     <y>150</y>
+     <width>409</width>
+     <height>351</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -33,19 +33,12 @@ color: rgb(21, 255, 228);</string>
     <string/>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="3" column="0">
-     <widget class="QPushButton" name="back_pushButton">
-      <property name="text">
-       <string>back</string>
-      </property>
-     </widget>
-    </item>
     <item row="0" column="0" colspan="2">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>grouptitle</string>
+         <string>channeltitle</string>
         </property>
        </widget>
       </item>
@@ -63,12 +56,19 @@ color: rgb(21, 255, 228);</string>
       </item>
      </layout>
     </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="back_pushButton">
+      <property name="text">
+       <string>back</string>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="0" colspan="2">
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>groupname</string>
+         <string>channelname</string>
         </property>
        </widget>
       </item>
@@ -90,9 +90,6 @@ color: rgb(21, 255, 228);</string>
        <font>
         <pointsize>12</pointsize>
        </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 0, 4);</string>
       </property>
       <property name="text">
        <string/>

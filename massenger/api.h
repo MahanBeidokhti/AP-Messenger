@@ -20,62 +20,52 @@ public:
     void sign(const QString &username ,const QString &password ,const QString &Fname,const QString &Lname);
     //sending Log in command to server and gathering the results
     void log(const QString &username ,const QString &password);
-
     //getting user chats
     void chatload(const QString &username, const QString &token, const QString &type);
     //sending user message
     void sendMessage(const QString &body, const QString &username,const QString &token, const QString &type);
     //creating channel and group
     void creator(const QString &token, const QString &name, const QString &title, const QString &type);
+    //joining channel and group
+    void joiner(const QString &token, const QString &name, const QString &type);
 
 signals:
     //signal for situation wich one of the log or sign commands are corrupted
     void NoError(QByteArray* data);
     //signal of a situation wich there is no error and you want to use the response of the server
     void Error(QNetworkReply* data);
-    //User successful/fail
+    //UserChannelGroupe successful/fail
     void UCG_Succ(QByteArray* data);
     void UCG_Fail(QNetworkReply* data);
-    //Sending message to User
+    //Sending message to UCG
     void Send_UCG_Succ(QByteArray* data);
     void Send_UCG_Fail(QNetworkReply* data);
-    //groupe successful/fail
-    void G_Succ(QByteArray* data);
-    void G_Fail(QNetworkReply* data);
-    //Sending message to groupe
-    void Send_G_Succ(QByteArray* data);
-    void Send_G_Fail(QNetworkReply* data);
-    //channel successful/fail
-    void C_Succ(QByteArray* data);
-    void C_Fail(QNetworkReply* data);
-    //Sending message to channel
-    void Send_C_Succ(QByteArray* data);
-    void Send_C_Fail(QNetworkReply* data);
     //creator connection check
     void Creat_C_Succ(QByteArray *data);
     void Creat_C_Fail(QNetworkReply* data);
     void Creat_G_Succ(QByteArray *data);
     void Creat_G_Fail(QNetworkReply* data);
+    //joiner connection check
+    void join_G_Succ(QByteArray *data);
+    void join_G_Fail(QNetworkReply* data);
+    void join_C_Succ(QByteArray *data);
+    void join_C_Fail(QNetworkReply* data);
 
 private slots:
     //slot for gathering the server results
     void Gather();
-    //User slot for gathering data in getting messages list
+    //slot for gathering data in getting messages list
     void GetChat_Gather();
-    //User slot for gathering data in sending message
+    //slot for gathering data in sending message
     void SendChat_Gather();
-    //Groupe slot for gathering data in getting messages list
-    void GetChat_Gather_G();
-    //Groupe slot for gathering data in sending message
-    void SendChat_Gather_G();
-    //Groupe slot for gathering data in getting messages list
-    void GetChat_Gather_C();
-    //Groupe slot for gathering data in sending message
-    void SendChat_Gather_C();
     //Group slot for gathering data in creating group
     void Creat_Gather_G();
     //channel slot for gathering data in creating channel
     void Creat_Gather_C();
+    //Group slot for gathering data in joining group
+    void join_Gather_G();
+    //channel slot for gathering data in joining channel
+    void join_Gather_C();
 
 private:
     //variable wich allows us to send request to the http server (api)

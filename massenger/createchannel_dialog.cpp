@@ -25,8 +25,14 @@ void createchannel_Dialog::on_confirm_pushButton_clicked()
     else
     {
         QString token;
-        //file: open json
-        ap->creator(token, channelname, channeltitle, "channel");
+        QFile tokenFile("token.txt");
+        if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug()<<"file cant be open";
+        }
+        else{
+            QTextStream stream(&tokenFile);
+            stream>>token;
+        }        ap->creator(token, channelname, channeltitle, "channel");
         connect(ap,&API::Creat_C_Succ,this,&::createchannel_Dialog::succ_handler);
         connect(ap,&API::Creat_C_Fail,this,&::createchannel_Dialog::fail_handler);
     }
