@@ -32,8 +32,8 @@ void sendmessagegroup_Dialog::on_confirm_pushButton_clicked()
         stream>>tok;
     }
     ap->chatload(username,tok,"group");
-    connect(ap,&API::Send_G_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
-    connect(ap,&API::Send_G_Fail,this,&::sendmessagegroup_Dialog::ChatError);
+    connect(ap,&API::G_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
+    connect(ap,&API::G_Fail,this,&::sendmessagegroup_Dialog::ChatError);
     ui->chat_groupBox->show();
     ui->groupname_groupBox->close();
 }
@@ -71,6 +71,8 @@ void sendmessagegroup_Dialog::ChatLoader(QByteArray *data)
            string a;
            for( int i = 11 ; msg[i] != '-' ; i++)
                 a += msg[i];
+
+           qDebug()<< JV.value("message").toString() <<"      loder";
 
             int b = stoi(a);
 
@@ -132,7 +134,7 @@ void sendmessagegroup_Dialog::on_send_pushButton_clicked()
         stream>>token;
     }
 
-    ap->sendMessage(ui->send_lineEdit->text(),ui->groupname_lineEdit->text(),token,"user");
+    ap->sendMessage(ui->send_lineEdit->text(),ui->groupname_lineEdit->text(),token,"group");
     connect(ap,&API::Send_G_Succ,this,&::sendmessagegroup_Dialog::SendLoader);
     connect(ap,&API::Send_G_Fail,this,&::sendmessagegroup_Dialog::SendError);
 }
@@ -156,9 +158,9 @@ void sendmessagegroup_Dialog::SendLoader(QByteArray *data)
     qDebug()<<message << "    message";
 
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
-    ap->chatload(ui->groupname_lineEdit->text(),token,"user");
-    connect(ap,&API::Send_C_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
-    connect(ap,&API::Send_C_Fail,this,&::sendmessagegroup_Dialog::ChatError);
+    ap->chatload(ui->groupname_lineEdit->text(),token,"group");
+    connect(ap,&API::G_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
+    connect(ap,&API::G_Fail,this,&::sendmessagegroup_Dialog::ChatError);
 }
 
 void sendmessagegroup_Dialog::SendError(QNetworkReply *rep)

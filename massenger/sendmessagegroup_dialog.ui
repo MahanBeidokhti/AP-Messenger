@@ -19,8 +19,8 @@
   <widget class="QGroupBox" name="groupname_groupBox">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>270</y>
+     <x>400</x>
+     <y>260</y>
      <width>311</width>
      <height>221</height>
     </rect>
@@ -37,7 +37,7 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>channelname :</string>
+         <string>groupname :</string>
         </property>
        </widget>
       </item>
@@ -80,8 +80,8 @@
   <widget class="QGroupBox" name="chat_groupBox">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>140</y>
+     <x>330</x>
+     <y>130</y>
      <width>421</width>
      <height>511</height>
     </rect>

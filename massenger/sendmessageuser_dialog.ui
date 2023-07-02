@@ -162,8 +162,6 @@
     </item>
    </layout>
   </widget>
-  <zorder>chat_groupBox</zorder>
-  <zorder>username_groupBox</zorder>
  </widget>
  <resources/>
  <connections/>

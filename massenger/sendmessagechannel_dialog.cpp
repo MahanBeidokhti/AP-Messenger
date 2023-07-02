@@ -20,7 +20,7 @@ sendmessagechannel_Dialog::~sendmessagechannel_Dialog()
 
 void sendmessagechannel_Dialog::on_confirm_pushButton_clicked()
 {
-    QString username = ui->channelname_lineEdit->text();
+    QString username = ui->name_lineEdit->text();
     QString tok;
     QFile tokenFile("token.txt");
     if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -32,8 +32,8 @@ void sendmessagechannel_Dialog::on_confirm_pushButton_clicked()
         stream>>tok;
     }
     ap->chatload(username,tok,"channel");
-    connect(ap,&API::Send_C_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
-    connect(ap,&API::Send_C_Fail,this,&::sendmessagechannel_Dialog::ChatError);
+    connect(ap,&API::C_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
+    connect(ap,&API::C_Fail,this,&::sendmessagechannel_Dialog::ChatError);
     ui->chat_groupBox->show();
     ui->channelname_groupBox->close();
 }
@@ -53,12 +53,12 @@ void sendmessagechannel_Dialog::on_back_chat_pushButton_clicked()
 
 void sendmessagechannel_Dialog::ChatLoader(QByteArray *data)
 {
-     ui->name_label->setText(ui->channelname_lineEdit->text());
+     ui->name_label->setText(ui->name_lineEdit->text());
      QJsonDocument JAnswer = QJsonDocument::fromJson(*data);
      QJsonObject JV = JAnswer.object();
      QString code =  JV.value("code").toString();
      qDebug()<< code;
-     QString filename = ui->channelname_lineEdit->text() + "_chat.json" ;
+     QString filename = ui->name_lineEdit->text() + "_chat.json" ;
      QFile messageFile(filename);
      if (!messageFile.open(QIODevice::WriteOnly)) {
           qDebug()<<"file cant be open";
@@ -90,11 +90,11 @@ void sendmessagechannel_Dialog::ChatLoader(QByteArray *data)
 void sendmessagechannel_Dialog::ChatError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
-    ui->name_label->setText(ui->channelname_lineEdit->text() + "(offline)" );
+    ui->name_label->setText(ui->name_lineEdit->text() + "(offline)" );
     QJsonDocument JAnswer;
     QJsonObject JV;
 
-    QString filename = ui->channelname_lineEdit->text() + "_chat.json" ;
+    QString filename = ui->name_lineEdit->text() + "_chat.json" ;
     QFile messageFile(filename);
      if (!messageFile.open(QIODevice::ReadOnly) ) {
          qDebug()<<"file cant be open";
@@ -134,7 +134,7 @@ void sendmessagechannel_Dialog::on_send_pushButton_clicked()
         stream>>token;
     }
 
-    ap->sendMessage(ui->send_lineEdit->text(),ui->channelname_lineEdit->text(),token,"user");
+    ap->sendMessage(ui->send_lineEdit->text(),ui->name_lineEdit->text(),token,"channel");
     connect(ap,&API::Send_C_Succ,this,&::sendmessagechannel_Dialog::SendLoader);
     connect(ap,&API::Send_C_Fail,this,&::sendmessagechannel_Dialog::SendError);
 }
@@ -158,9 +158,9 @@ void sendmessagechannel_Dialog::SendLoader(QByteArray *data)
     qDebug()<<message << "    message";
 
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
-    ap->chatload(ui->channelname_lineEdit->text(),token,"user");
-    connect(ap,&API::Send_C_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
-    connect(ap,&API::Send_C_Fail,this,&::sendmessagechannel_Dialog::ChatError);
+    ap->chatload(ui->name_lineEdit->text(),token,"channel");
+    connect(ap,&API::C_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
+    connect(ap,&API::C_Fail,this,&::sendmessagechannel_Dialog::ChatError);
 }
 
 void sendmessagechannel_Dialog::SendError(QNetworkReply *rep)
