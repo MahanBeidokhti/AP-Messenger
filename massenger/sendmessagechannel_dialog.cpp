@@ -11,6 +11,7 @@ sendmessagechannel_Dialog::sendmessagechannel_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    ui->message_textEdit->setReadOnly(true);
 }
 
 sendmessagechannel_Dialog::~sendmessagechannel_Dialog()
@@ -36,6 +37,7 @@ void sendmessagechannel_Dialog::on_confirm_pushButton_clicked()
     connect(ap,&API::C_Fail,this,&::sendmessagechannel_Dialog::ChatError);
     ui->chat_groupBox->show();
     ui->channelname_groupBox->close();
+
 }
 
 
@@ -89,7 +91,7 @@ void sendmessagechannel_Dialog::ChatLoader(QByteArray *data)
 
 void sendmessagechannel_Dialog::ChatError(QNetworkReply *rep)
 {
-    qDebug()<<rep->errorString();
+    qDebug() << rep->errorString();
     ui->name_label->setText(ui->name_lineEdit->text() + "(offline)" );
     QJsonDocument JAnswer;
     QJsonObject JV;
@@ -137,6 +139,8 @@ void sendmessagechannel_Dialog::on_send_pushButton_clicked()
     ap->sendMessage(ui->send_lineEdit->text(),ui->name_lineEdit->text(),token,"channel");
     connect(ap,&API::Send_C_Succ,this,&::sendmessagechannel_Dialog::SendLoader);
     connect(ap,&API::Send_C_Fail,this,&::sendmessagechannel_Dialog::SendError);
+
+    ui->send_lineEdit->clear();
 }
 
 void sendmessagechannel_Dialog::SendLoader(QByteArray *data)
@@ -157,6 +161,13 @@ void sendmessagechannel_Dialog::SendLoader(QByteArray *data)
     qDebug()<<code << "   code";
     qDebug()<<message << "    message";
 
+    if(message=="You are not Admin of This Channel")
+    {
+        ui->send_lineEdit->setStyleSheet("color: red;");
+        ui->send_lineEdit->setText(message);
+        ui->send_lineEdit->setReadOnly(true);
+    }
+
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
     ap->chatload(ui->name_lineEdit->text(),token,"channel");
     connect(ap,&API::C_Succ,this,&::sendmessagechannel_Dialog::ChatLoader);
@@ -166,4 +177,5 @@ void sendmessagechannel_Dialog::SendLoader(QByteArray *data)
 void sendmessagechannel_Dialog::SendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
+
 }

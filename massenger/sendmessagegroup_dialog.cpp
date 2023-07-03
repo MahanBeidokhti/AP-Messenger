@@ -2,6 +2,7 @@
 #include "ui_sendmessagegroup_dialog.h"
 #include <string>
 
+
 using namespace std;
 
 sendmessagegroup_Dialog::sendmessagegroup_Dialog(QWidget *parent) :
@@ -11,6 +12,8 @@ sendmessagegroup_Dialog::sendmessagegroup_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    ui->message_textEdit->setReadOnly(true);
+
 }
 
 sendmessagegroup_Dialog::~sendmessagegroup_Dialog()
@@ -36,6 +39,11 @@ void sendmessagegroup_Dialog::on_confirm_pushButton_clicked()
     connect(ap,&API::G_Fail,this,&::sendmessagegroup_Dialog::ChatError);
     ui->chat_groupBox->show();
     ui->groupname_groupBox->close();
+
+    timer = new QTimer();
+    timer->setInterval(10000);
+    timer->start();
+    connect(timer,&QTimer::timeout,this,&::sendmessagegroup_Dialog::Updater);
 }
 
 void sendmessagegroup_Dialog::on_back_pushButton_clicked()
@@ -63,25 +71,25 @@ void sendmessagegroup_Dialog::ChatLoader(QByteArray *data)
       }
       else{
 
-           messageFile.write(JAnswer.toJson());
-           messageFile.close();
-           ui->message_textEdit->clear();
+               string msg = JV.value("message").toString().toStdString();
+               string a;
+               for( int i = 11 ; msg[i] != '-' ; i++)
+                      a += msg[i];
 
-           string msg = JV.value("message").toString().toStdString();
-           string a;
-           for( int i = 11 ; msg[i] != '-' ; i++)
-                a += msg[i];
+               int b = stoi(a);
+               if(b!=0)
+               {
+                   messageFile.write(JAnswer.toJson());
+                   messageFile.close();
+                   ui->message_textEdit->clear();
 
-           qDebug()<< JV.value("message").toString() <<"      loder";
+                   for( int i = 0 ; i < b ; i++){
+                      QString blck = QString::fromStdString("block " + to_string(i));
+                      QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
 
-            int b = stoi(a);
+                      ui->message_textEdit->append(message);
+               }
 
-
-           for( int i = 0 ; i < b ; i++){
-              QString blck = QString::fromStdString("block " + to_string(i));
-              QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
-
-              ui->message_textEdit->append(message);
            }
       }
 
@@ -112,7 +120,6 @@ void sendmessagegroup_Dialog::ChatError(QNetworkReply *rep)
 
            int b = stoi(a);
 
-
            for( int i = 0 ; i < b ; i++){
                QString blck = QString::fromStdString("block " + to_string(i));
                QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
@@ -123,7 +130,7 @@ void sendmessagegroup_Dialog::ChatError(QNetworkReply *rep)
 }
 
 void sendmessagegroup_Dialog::on_send_pushButton_clicked()
-{
+{    
     QString token;
     QFile tokenFile("token.txt");
     if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -137,6 +144,8 @@ void sendmessagegroup_Dialog::on_send_pushButton_clicked()
     ap->sendMessage(ui->send_lineEdit->text(),ui->groupname_lineEdit->text(),token,"group");
     connect(ap,&API::Send_G_Succ,this,&::sendmessagegroup_Dialog::SendLoader);
     connect(ap,&API::Send_G_Fail,this,&::sendmessagegroup_Dialog::SendError);
+
+    ui->send_lineEdit->clear();
 }
 
 void sendmessagegroup_Dialog::SendLoader(QByteArray *data)
@@ -166,4 +175,21 @@ void sendmessagegroup_Dialog::SendLoader(QByteArray *data)
 void sendmessagegroup_Dialog::SendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
+}
+
+void sendmessagegroup_Dialog::Updater()
+{
+    QString username = ui->groupname_lineEdit->text();
+    QString tok;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>tok;
+    }
+    ap->chatload(username,tok,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessagegroup_Dialog::ChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessagegroup_Dialog::ChatError);
 }

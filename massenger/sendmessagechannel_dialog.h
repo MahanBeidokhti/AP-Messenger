@@ -5,7 +5,7 @@
 #include "api.h"
 #include <QFile>
 #include <QTextStream>
-#include "message.h"
+
 
 namespace Ui {
 class sendmessagechannel_Dialog;

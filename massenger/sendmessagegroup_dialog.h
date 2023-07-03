@@ -5,7 +5,8 @@
 #include "api.h"
 #include <QFile>
 #include <QTextStream>
-#include "message.h"
+#include <QTimer>
+
 
 namespace Ui {
 class sendmessagegroup_Dialog;
@@ -28,10 +29,13 @@ private slots:
     void on_send_pushButton_clicked();
     void SendLoader(QByteArray *data);
     void SendError(QNetworkReply *rep);
+    void Updater();
 
 private:
     Ui::sendmessagegroup_Dialog *ui;
     API *ap;
+    QTimer *timer;
+
 };
 
 #endif // SENDMESSAGEGROUP_DIALOG_H

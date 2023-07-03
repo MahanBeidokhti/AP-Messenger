@@ -11,6 +11,8 @@ sendmessageuser_Dialog::sendmessageuser_Dialog(QWidget *parent) :
     ui->setupUi(this);
     ui->chat_groupBox->hide();
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
+    ui->message_textEdit->setReadOnly(true);
+
 }
 
 sendmessageuser_Dialog::~sendmessageuser_Dialog()
@@ -35,6 +37,13 @@ void sendmessageuser_Dialog::on_confirm_pushButton_clicked()
    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
    ui->chat_groupBox->show();
    ui->username_groupBox->close();
+
+   timer = new QTimer();
+   timer->setInterval(10000);
+   timer->start();
+   connect(timer,&QTimer::timeout,this,&::sendmessageuser_Dialog::Updater);
+
+
 }
 
 
@@ -72,6 +81,7 @@ void sendmessageuser_Dialog::UserChatLoader(QByteArray *data)
            for( int i = 11 ; msg[i] != '-' ; i++)
                 a += msg[i];
 
+            qDebug() << QString::fromStdString(msg);
             int b = stoi(a);
 
 
@@ -94,33 +104,33 @@ void sendmessageuser_Dialog::UserChatError(QNetworkReply *rep)
 
     QString filename = ui->username_lineEdit->text() + "_chat.json" ;
     QFile messageFile(filename);
-    if (!messageFile.open(QIODevice::ReadOnly) )
-    {
-        qDebug()<<"file cant be open";
-    }
-    else
-    {
-        QByteArray jsonData = messageFile.readAll();
-        JAnswer = QJsonDocument::fromJson(jsonData);
-        JV = JAnswer.object();
-        messageFile.close();
+     if (!messageFile.open(QIODevice::ReadOnly) ) {
+         qDebug()<<"file cant be open";
+     }
+     else{
+           QByteArray jsonData = messageFile.readAll();
+           JAnswer = QJsonDocument::fromJson(jsonData);
+           JV = JAnswer.object();
+           messageFile.close();
 
-        string msg = JV.value("message").toString().toStdString();
-        string a;
-        for( int i = 11 ; msg[i] != '-' ; i++)
-            a += msg[i];
+            string msg = JV.value("message").toString().toStdString();
+            string a;
+            for( int i = 11 ; msg[i] != '-' ; i++)
+                a += msg[i];
 
-        int b = stoi(a);
+             int b = stoi(a);
 
 
-        for( int i = 0 ; i < b ; i++)
-        {
-            QString blck = QString::fromStdString("block " + to_string(i));
-            QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
+            for( int i = 0 ; i < b ; i++){
+              QString blck = QString::fromStdString("block " + to_string(i));
+              QString message = JV.value(blck).toObject().value("src").toString() + " : " + JV.value(blck).toObject().value("body").toString() + "(" + JV.value(blck).toObject().value("date").toString() + ")\n";
 
-            ui->message_textEdit->append(message);
-        }
-    }
+              ui->message_textEdit->append(message);
+            }
+
+
+     }
+
 }
 
 void sendmessageuser_Dialog::on_send_pushButton_clicked()
@@ -138,6 +148,8 @@ void sendmessageuser_Dialog::on_send_pushButton_clicked()
     ap->sendMessage(ui->send_lineEdit->text(),ui->username_lineEdit->text(),token,"user");
     connect(ap,&API::Send_UCG_Succ,this,&::sendmessageuser_Dialog::UserSendLoader);
     connect(ap,&API::Send_UCG_Fail,this,&::sendmessageuser_Dialog::UserSendError);
+
+    ui->send_lineEdit->clear();
 }
 
 void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
@@ -167,4 +179,21 @@ void sendmessageuser_Dialog::UserSendLoader(QByteArray *data)
 void sendmessageuser_Dialog::UserSendError(QNetworkReply *rep)
 {
     qDebug()<<rep->errorString();
+}
+
+void sendmessageuser_Dialog::Updater()
+{
+    QString username = ui->username_lineEdit->text();
+    QString tok;
+    QFile tokenFile("token.txt");
+    if (!tokenFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+       qDebug()<<"file cant be open";
+    }
+    else{
+        QTextStream stream(&tokenFile);
+        stream>>tok;
+    }
+    ap->chatload(username,tok,"user");
+    connect(ap,&API::UCG_Succ,this,&::sendmessageuser_Dialog::UserChatLoader);
+    connect(ap,&API::UCG_Fail,this,&::sendmessageuser_Dialog::UserChatError);
 }

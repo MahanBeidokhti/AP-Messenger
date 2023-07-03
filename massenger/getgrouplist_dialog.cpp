@@ -9,6 +9,8 @@ getgrouplist_Dialog::getgrouplist_Dialog(QWidget *parent) :
     ui(new Ui::getgrouplist_Dialog)
 {
     ui->setupUi(this);
+    ui->group_list_textEdit->setReadOnly(true);
+
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
     QString tok;
     QFile tokenFile("token.txt");
