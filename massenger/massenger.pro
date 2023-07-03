@@ -21,7 +21,6 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     menu_dialog.cpp \
-    message.cpp \
     sendmessagechannel_dialog.cpp \
     sendmessagegroup_dialog.cpp \
     sendmessageuser_dialog.cpp
@@ -37,7 +36,6 @@ HEADERS += \
     joingroup_dialog.h \
     mainwindow.h \
     menu_dialog.h \
-    message.h \
     sendmessagechannel_dialog.h \
     sendmessagegroup_dialog.h \
     sendmessageuser_dialog.h

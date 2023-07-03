@@ -5,7 +5,7 @@
 #include "api.h"
 #include <QFile>
 #include <QTextStream>
-#include "message.h"
+#include <QTimer>
 
 
 namespace Ui {
@@ -29,10 +29,15 @@ private slots:
     void on_send_pushButton_clicked();
     void UserSendLoader(QByteArray *data);
     void UserSendError(QNetworkReply *rep);
+    void Updater();
 
 private:
     Ui::sendmessageuser_Dialog *ui;
     API *ap;
+    QTimer *timer;
+
+
+
 };
 
 #endif // SENDMESSAGEUSER_DIALOG_H

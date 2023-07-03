@@ -9,6 +9,8 @@ getchannellist_Dialog::getchannellist_Dialog(QWidget *parent) :
     ui(new Ui::getchannellist_Dialog)
 {
     ui->setupUi(this);
+    ui->channel_list_textEdit->setReadOnly(true);
+
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
     QString tok;
     QFile tokenFile("token.txt");

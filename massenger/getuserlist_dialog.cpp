@@ -9,6 +9,8 @@ getuserlist_Dialog::getuserlist_Dialog(QWidget *parent) :
     ui(new Ui::getuserlist_Dialog)
 {
     ui->setupUi(this);
+    ui->user_list_textEdit->setReadOnly(true);
+
     ap = new API(("http://api.barafardayebehtar.ml:8080"));
     QString tok;
     QFile tokenFile("token.txt");

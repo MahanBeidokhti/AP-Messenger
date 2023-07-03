@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color: rgb(84, 45, 1);</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -33,7 +33,11 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QTextEdit" name="user_list_textEdit"/>
+       <widget class="QTextEdit" name="user_list_textEdit">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QPushButton" name="user_pushButton">
